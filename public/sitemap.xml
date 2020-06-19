@@ -33,18 +33,83 @@
   </url>
   
   <url>
-    <loc>/post/mapping-protest/</loc>
+    <loc>/blog/</loc>
     <lastmod>2020-06-17T20:46:45-04:00</lastmod>
   </url>
   
   <url>
-    <loc>/post/</loc>
+    <loc>/blog/mapping-protest/</loc>
     <lastmod>2020-06-17T20:46:45-04:00</lastmod>
   </url>
   
   <url>
     <loc>/publication-type/2/</loc>
-    <lastmod>2019-09-01T00:00:00+00:00</lastmod>
+    <lastmod>2019-12-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/agricultural-adaptation/</loc>
+    <lastmod>2019-12-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/</loc>
+    <lastmod>2019-12-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/2019_cc/</loc>
+    <lastmod>2019-12-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/christopher-lant/</loc>
+    <lastmod>2019-12-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/dr.-emily-burchfield/</loc>
+    <lastmod>2019-12-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/future-cropscapes/</loc>
+    <lastmod>2019-12-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/justin-schoof/</loc>
+    <lastmod>2019-12-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/neil-matthews-pennanen/</loc>
+    <lastmod>2019-12-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/projection/</loc>
+    <lastmod>2019-12-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication_types/</loc>
+    <lastmod>2019-12-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/</loc>
+    <lastmod>2019-12-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
+    <lastmod>2019-12-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/yield/</loc>
+    <lastmod>2019-12-09T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -58,17 +123,7 @@
   </url>
   
   <url>
-    <loc>/authors/</loc>
-    <lastmod>2019-09-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/tag/cdl/</loc>
-    <lastmod>2019-09-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/author/dr.-emily-burchfield/</loc>
     <lastmod>2019-09-01T00:00:00+00:00</lastmod>
   </url>
   
@@ -88,32 +143,12 @@
   </url>
   
   <url>
-    <loc>/publication_types/</loc>
-    <lastmod>2019-09-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication/</loc>
-    <lastmod>2019-09-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/</loc>
-    <lastmod>2019-09-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/publication/2019_aee/</loc>
     <lastmod>2019-09-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/tag/yield/</loc>
-    <lastmod>2019-09-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/project/cropscapes/</loc>
+    <loc>/tag/adaptation/</loc>
     <lastmod>2019-06-27T00:00:00+00:00</lastmod>
   </url>
   
@@ -134,6 +169,16 @@
   
   <url>
     <loc>/tag/drought/</loc>
+    <lastmod>2019-06-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/project/cropscapes/</loc>
+    <lastmod>2019-06-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/future-yield/</loc>
     <lastmod>2019-06-27T00:00:00+00:00</lastmod>
   </url>
   
@@ -218,6 +263,10 @@
   
   <url>
     <loc>/categories/</loc>
+  </url>
+  
+  <url>
+    <loc>/prospective/</loc>
   </url>
   
 </urlset>

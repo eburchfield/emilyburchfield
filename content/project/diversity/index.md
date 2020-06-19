@@ -32,4 +32,5 @@ This project is funded by GRANT INFORMATION.  Other folks on the grant are [Dr. 
 
 ## Publications
 
-Link to pubs here.
+* Spangler, K., **Burchfield, E.**, Schumacher, B. (2019) Past and current dynamics of US agricultural land use and policy. In press at _Frontiers in Sustainable Food Systems._ 
+* **Burchfield, E.**, Nelson, K., Spangler, K. (2019).  The impact of agricultural diversification on U.S. crop production. _Agriculture, Ecosystems & Environment._ _285_ 106615. [https://doi.org/10.1016/j.agee.2019.106615](https://doi.org/10.1016/j.agee.2019.106615).  Preprint available[here](/files/Burchfield_SDI_preprint.pdf)

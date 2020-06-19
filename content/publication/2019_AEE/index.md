@@ -9,7 +9,7 @@ authors:
 - Kaitlyn Spangler
 date: "2019-09-01T00:00:00Z"
 doi: ""
-featured: false
+featured: true
 image:
   caption: 'Figure from paper'
   focal_point: ""
