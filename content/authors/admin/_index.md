@@ -29,10 +29,9 @@ social:
   icon_pack: fab
   link: https://github.com/eburchfield
 superuser: true
-title: Emily Burchfield
-user_groups:
-
+title: Dr. Emily Burchfield
+user_groups: [""]
 
 ---
 
-Dr. Burchfield is an Assitant Professor in the [Department of Environmental Sciences](http://envs.emory.edu/home/) at Emory University.  Her research integrates social and environmental data to understand the distributional consequences of changing climate on humans and the environment. She relies heavily on geospatial programming and analysis, but also integrates survey and qualitative data. Her current research focuses on future food and water security in the United States and the role of diversification in agricultural production.
+Dr. Burchfield is an Assitant Professor in the [Department of Environmental Sciences](http://envs.emory.edu/home/) at Emory University.  Her research integrates social and environmental data to understand the distributional consequences of changing climate on humans and the environment. She relies heavily on geospatial programming and analysis, but also integrates survey and qualitative data. Her current research focuses on future food and water security in the United States and the role of diversification in agricultural production.  You can download her CV {{% staticref "files/cv.pdf" %}}here{{% /staticref %}}.

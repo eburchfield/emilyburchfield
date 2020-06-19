@@ -21,17 +21,21 @@ subtitle = ""
   # Default filter index (e.g. 0 corresponds to the first `[[filter_button]]` instance below).
   filter_default = 0
   
-  # [[content.filter_button]]
-  #   name = "All"
-  #   tag = "*"
-  # 
-  # [[content.filter_button]]
-  #   name = "Future Cropscapes"
-  #   tag = "Future Cropscapes"
-  # 
-  # [[content.filter_button]]
-  #   name = "Agricultural Diversity"
-  #   tag = "Agricultural Diversity"
+  [[content.filter_button]]
+    name = "All"
+    tag = "*"
+
+  [[content.filter_button]]
+    name = "Future Cropscapes"
+    tag = "Cropscapes"
+
+  [[content.filter_button]]
+    name = "Agricultural Diversity"
+    tag = "Diversity"
+    
+  [[content.filter_button]]
+    name = "ADAPT-SL"
+    tag = "ADAPT-SL"
 
 [design]
   # Choose how many columns the section has. Valid values: 1 or 2.
