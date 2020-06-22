@@ -130,7 +130,7 @@ Houston we have coordinates!  Note that some of the cities were not geocoded wit
 
 # Visualizations
 
-```{r echo=F, message=F, warning=F}
+```{r echo=F, message=F, warning=F, eval=F}
 library(ggthemes)
 state_count <- protests %>%
   filter(Year == 2020, Month %in% 4:7) %>%
