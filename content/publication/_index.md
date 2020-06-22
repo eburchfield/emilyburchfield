@@ -12,8 +12,8 @@ title: Publications
 
 ## 2019
 
-* **Burchfield, E.**, Matthews-Pennanen, N., Stoebner, J., Lant, C. (2019).  [Changing yields in the Central United States under climate and technological change.](https://doi.org/10.1007/s10584-019-02567-7) _Climatic Change_, _159_, 329-346.  Preprint available [here](/files/Burchfield_FY_preprint.pdf).
-* **Burchfield, E.**, Nelson, K., Spangler, K. (2019).  [The impact of agricultural diversification on U.S. crop production.](https://doi.org/10.1016/j.agee.2019.106615) _Agriculture, Ecosystems & Environment._ _285_ 106615. Preprint available [here](/files/Burchfield_SDI_preprint.pdf).  
+* **Burchfield, E.**, Matthews-Pennanen, N., Stoebner, J., Lant, C. (2019).  [Changing yields in the Central United States under climate and technological change.](/publication/2019_CC) _Climatic Change_, _159_, 329-346.  Preprint available [here](/files/Burchfield_FY_preprint.pdf).
+* **Burchfield, E.**, Nelson, K., Spangler, K. (2019).  [The impact of agricultural diversification on U.S. crop production.](/publication/2019_AEE) _Agriculture, Ecosystems & Environment._ _285_ 106615. Preprint available [here](/files/Burchfield_SDI_preprint.pdf).  
 
 ## 2018
 
