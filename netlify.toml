@@ -12,3 +12,10 @@
 
 [context.deploy-preview.environment]
   HUGO_VERSION = "0.69.2"
+  
+[[redirects]]
+  from = "/search"
+  to = "www.emilyburchfield.org"
+  status = 200
+  force = true
+  headers = {X-From = "Netlify"}
