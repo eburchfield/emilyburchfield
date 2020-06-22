@@ -148,6 +148,7 @@ ggplot(sc) +
 ```
 
 ```{r echo=F, message=F, warning=F}
+library(ggthemes)
 # make p spatial
 psf <- st_as_sf(protests, 
                    coords = c("lon", "lat"), 
