@@ -150,7 +150,6 @@ glimpse(protests)&lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;
 &lt;div id=&#34;visualizations&#34; class=&#34;section level1&#34;&gt;
 &lt;h1&gt;Visualizations&lt;/h1&gt;
-&lt;p&gt;&lt;img src=&#34;/blog/2020-06-17-mapping-protest_files/figure-html/unnamed-chunk-9-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;/blog/2020-06-17-mapping-protest_files/figure-html/unnamed-chunk-10-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;div id=&#34;other-relevant-datasets-and-resources&#34; class=&#34;section level1&#34;&gt;
@@ -173,17 +172,17 @@ glimpse(protests)&lt;/code&gt;&lt;/pre&gt;
     
     <item>
       <title>Changing yields in the central US under climate and technological change</title>
-      <link>/publication/2019_cc/</link>
+      <link>/publications/2019_cc/</link>
       <pubDate>Mon, 09 Dec 2019 00:00:00 +0000</pubDate>
-      <guid>/publication/2019_cc/</guid>
+      <guid>/publications/2019_cc/</guid>
       <description></description>
     </item>
     
     <item>
       <title>The impact of agricultural landscape diversification on US crop production</title>
-      <link>/publication/2019_aee/</link>
+      <link>/publications/2019_aee/</link>
       <pubDate>Sun, 01 Sep 2019 00:00:00 +0000</pubDate>
-      <guid>/publication/2019_aee/</guid>
+      <guid>/publications/2019_aee/</guid>
       <description></description>
     </item>
     
