@@ -28,9 +28,13 @@ Simplification of global landscapes, driven by the expansion and intensification
 
 Our goal is to provide solutions for sustainable agriculture by characterizing how and why landscape simplification affects ecosystem health and agricultural productivity and by identifying barriers to landscape diversification.  
 
-This project is funded by GRANT INFORMATION.  Other folks on the grant are [Dr. Kate Nelson](https://www.k-state.edu/geography/people/faculty/knelson.html) and [Dr. Jeremy Cowan](https://hnr.k-state.edu/people/faculty/cowan-jeremy/index.html) both at Kansas State University.
+Other folks on the grant are [Dr. Kate Nelson](https://www.k-state.edu/geography/people/faculty/knelson.html) and [Dr. Jeremy Cowan](https://hnr.k-state.edu/people/faculty/cowan-jeremy/index.html) both at Kansas State University.
 
 ## Publications
 
 * Spangler, K., **Burchfield, E.**, Schumacher, B. (2019) Past and current dynamics of US agricultural land use and policy. In press at _Frontiers in Sustainable Food Systems._ 
 * **Burchfield, E.**, Nelson, K., Spangler, K. (2019).  The impact of agricultural diversification on U.S. crop production. _Agriculture, Ecosystems & Environment._ _285_ 106615. [https://doi.org/10.1016/j.agee.2019.106615](https://doi.org/10.1016/j.agee.2019.106615).  Preprint available[here](/files/Burchfield_SDI_preprint.pdf)
+
+## Talks
+
+* Overview of our AEE paper given to the PhenoRob group at the University of Bonn in June, 2020.  Video link [here](https://www.youtube.com/watch?v=2qbEkD6eQtI)
