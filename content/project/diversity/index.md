@@ -37,4 +37,4 @@ Other folks on the grant are [Dr. Kate Nelson](https://www.k-state.edu/geography
 
 ## Talks
 
-* Overview of our AEE paper given to the PhenoRob group at the University of Bonn in June, 2020.  Video link [here](https://www.youtube.com/watch?v=2qbEkD6eQtI)
+* An overview of our AEE paper given to the PhenoRob group at the University of Bonn in June, 2020 can be found [here](https://www.youtube.com/watch?v=2qbEkD6eQtI).
