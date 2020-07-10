@@ -28,7 +28,7 @@ Simplification of global landscapes, driven by the expansion and intensification
 
 Our goal is to provide solutions for sustainable agriculture by characterizing how and why landscape simplification affects ecosystem health and agricultural productivity and by identifying barriers to landscape diversification.  
 
-Other folks on the grant are [Dr. Kate Nelson](https://www.k-state.edu/geography/people/faculty/knelson.html) and [Dr. Jeremy Cowan](https://hnr.k-state.edu/people/faculty/cowan-jeremy/index.html) both at Kansas State University.
+This project is funded by USDA NIFA ([Grant 2020-67019-31157](https://cris.nifa.usda.gov/cgi-bin/starfinder/0?path=fastlink1.txt&id=anon&pass=&search=R=87791&format=WEBLINK)).  Other folks on the grant are [Dr. Kate Nelson](https://www.k-state.edu/geography/people/faculty/knelson.html) and [Dr. Jeremy Cowan](https://hnr.k-state.edu/people/faculty/cowan-jeremy/index.html) both at Kansas State University.
 
 ## Publications
 
