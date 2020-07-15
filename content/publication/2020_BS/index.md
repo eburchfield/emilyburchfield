@@ -8,7 +8,7 @@ authors:
 - admin
 - Britta Schumacher
 
-#date: "2019-09-01T00:00:00Z"
+date: "2020-07-15T00:00:00Z"
 doi: ""
 featured: true
 image:
@@ -20,7 +20,7 @@ publication: '*Environmental Research Letters*'
 # publication_short: ""
 publication_types:
 - "2"
-publishDate: "2020-15-07T00:00:00Z"
+publishDate: "2020-07-07T00:00:00Z"
 # slides: example
 # summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus
 #   ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
