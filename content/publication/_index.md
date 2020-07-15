@@ -8,7 +8,7 @@ title: Publications
 
 ## 2020
 
-* **Burchfield, E.**, Schumacher, B. (2020) Bright spots in US corn production. In press at [_Environmental Research Letters_](https://doi.org/10.1088/1748-9326/aba5b4).
+* **Burchfield, E.**, Schumacher, B. (2020) [Bright spots in US corn production.](https://doi.org/10.1088/1748-9326/aba5b4) In press at _Environmental Research Letters_.
 * Spangler, K., **Burchfield, E.**, Schumacher, B. (2019) Past and current dynamics of US agricultural land use and policy. In press at _Frontiers in Sustainable Food Systems._ 
 
 ## 2019
