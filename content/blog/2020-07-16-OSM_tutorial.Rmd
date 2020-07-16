@@ -17,26 +17,28 @@ image:
 projects: []
 ---
 
-```{r echo=F}
-setwd("C:/Users/eburchf/OneDrive - Emory University/WF/Bangladesh/")
+```{r echo=F, warning=F, message=F}
+shp_list <- Sys.glob("C:/Users/eburchf/OneDrive - Emory University/WF/Bangladesh/data/*.shp")
 ```
 
 
 ```{r message=F, warning=F}
 library(tidyverse)
 library(sf)
-
-roi <- st_read("./data/roi.shp", quiet=T)
 ```
 
-I just discovered Geofabrik's clean daily shapefiles of [OpenStreetMap data](https://www.openstreetmap.org/#map=7/23.544/90.344) for basically every country on EARTH.  In this post, I'll work with data from Bangladesh which you can download by clicking the `[.shp.zip]` file next to Bangladesh  [here](http://download.geofabrik.de/asia.html). As you start playing with this data, you'll probably also want to review the metadata for the shapefiles, which you can find [here](download.geofabrik.de/osm-data-in-gis-formats-free.pdf). I dropped the downloaded shapefiles in a `data` folder on my machine. Note that all files for Bangladesh are around 2.7 GB, so if you're following along on a storage-challenged machine, you might want to go with a smaller country.  Note that I'm also using a region of interest (ROI) shapefile to trim down the county-wide shapefiles.  If you have a ROI of interest, just replace my ROI shapefile directory path with your ROI shapefile directory path.  Be sure to check projection!
+I just discovered [Geofabrik's](https://www.geofabrik.de/) clean daily shapefiles of [OpenStreetMap data](https://www.openstreetmap.org/#map=7/23.544/90.344) for basically every country on EARTH.  In this post, I'll work with data from Bangladesh which you can download by clicking the `[.shp.zip]` file next to Bangladesh  [here](http://download.geofabrik.de/asia.html). As you start playing with this data, you'll probably also want to review the metadata for the shapefiles, which you can find [here](download.geofabrik.de/osm-data-in-gis-formats-free.pdf). I dropped the downloaded shapefiles in a `data` folder on my machine. Note that all files for Bangladesh are around 2.7 GB, so if you're following along on a storage-challenged machine, you might want to go with a smaller country.  
 
 Let's start by inspecting what's in this folder.  We can print out all of the files with extension `.shp` by running the following code (remember, this assumes you've moved all of your data to a `/data` sub-folder in your working directory):
 
-```{r}
+```{r eval=F}
 shp_list <- Sys.glob("./data/*.shp")
+```
+
+```{r}
 shp_list
 ```
+
 Lots to dig through.  We can also use this new `my_shp` list to help us open files.  Let's build a function to help us inspect the contents of each shapefile.
 
 ```{r}
@@ -75,39 +77,14 @@ out[[2]]
 out[[3]]
 ```
 
-We can also use functions to clean up the shapefiles in a systematic way, e.g. reproject or crop.
-
-```{r}
-clean_shp <- function(shp, roi) {
-  # reproject
-  extent <- st_transform(roi, st_crs(shp))
-  # and crop
-  shp_c <- st_crop(shp, extent)
-  # I won't do this here, but you could add any other tidying you needed to do here
-  return(shp_c)
-}
-```
-
-Let's clean and visualize the landuse data for my ROI:
-
-```{r message=F, warning=F}
-lulc <- clean_shp(out[[1]], roi) 
-
-ggplot() +
-  geom_sf(data = lulc, aes(fill = fclass)) +
-  theme_minimal() +
-  labs(title = "Land use",
-       subtitle = "Geofrabrik download on 7/16/20",
-       fill = "")
-```
-
-This is a quick way to confirm that coverage ain't great in my ROI.  Let's inspect some of the other datasets:
+Let's inspect some of the other datasets:
 
 ```{r message=F, warning=F}
 places <- inspect_shp(shp_list[5])
 places[[2]]
 places[[3]]
 ```
+
 ```{r message=F, warning=F}
 water <- inspect_shp(shp_list[17])
 water[[2]]
