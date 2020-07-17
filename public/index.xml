@@ -5,12 +5,20 @@
     <link>/</link>
       <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <description>Emily Burchfield</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 16 Jul 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 17 Jul 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/img/Burchfield_head_shot.jpg</url>
       <title>Emily Burchfield</title>
       <link>/</link>
     </image>
+    
+    <item>
+      <title>(The woes of) US irrigation data</title>
+      <link>/blog/the-woes-of-us-irrigation-data/</link>
+      <pubDate>Fri, 17 Jul 2020 00:00:00 +0000</pubDate>
+      <guid>/blog/the-woes-of-us-irrigation-data/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>OSM Resource</title>
@@ -66,25 +74,6 @@ inspect_shp &amp;lt;- function(dir) {
   return(out_list)
 }&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;Let’s try out our &lt;code&gt;inspect_shp()&lt;/code&gt; function:&lt;/p&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;out &amp;lt;- inspect_shp(shp_list[2])&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;## [1] &amp;quot;C:/Users/eburchf/OneDrive - Emory University/WF/Bangladesh/data/gis_osm_landuse_a_free_1.shp is a MULTIPOLYGON with 72833 observations.&amp;quot;&lt;/code&gt;&lt;/pre&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;out[[2]]&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;##  [1] park              forest            commercial        recreation_ground
-##  [5] military          retail            cemetery          industrial       
-##  [9] residential       nature_reserve    farm              grass            
-## [13] meadow            orchard           quarry            scrub            
-## [17] allotments        heath             vineyard         
-## 19 Levels: allotments cemetery commercial farm forest grass ... vineyard&lt;/code&gt;&lt;/pre&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;out[[3]]&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;/blog/2020-07-16-OSM_tutorial_files/figure-html/unnamed-chunk-8-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;Let’s inspect some of the other datasets:&lt;/p&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;places &amp;lt;- inspect_shp(shp_list[5])&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;## [1] &amp;quot;C:/Users/eburchf/OneDrive - Emory University/WF/Bangladesh/data/gis_osm_places_a_free_1.shp is a MULTIPOLYGON with 225 observations.&amp;quot;&lt;/code&gt;&lt;/pre&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;places[[2]]&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;## [1] island   town     village  hamlet   locality city     suburb   farm    
-## Levels: city farm hamlet island locality suburb town village&lt;/code&gt;&lt;/pre&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;places[[3]]&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;/blog/2020-07-16-OSM_tutorial_files/figure-html/unnamed-chunk-9-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;roads &amp;lt;- inspect_shp(shp_list[12])&lt;/code&gt;&lt;/pre&gt;
 &lt;pre&gt;&lt;code&gt;## [1] &amp;quot;C:/Users/eburchf/OneDrive - Emory University/WF/Bangladesh/data/gis_osm_roads_free_1.shp is a LINESTRING with 331452 observations.&amp;quot;&lt;/code&gt;&lt;/pre&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;roads[[2]]&lt;/code&gt;&lt;/pre&gt;
@@ -95,7 +84,7 @@ inspect_shp &amp;lt;- function(dir) {
 ## [21] tertiary_link  cycleway       track_grade3   track_grade2   track_grade5  
 ## 25 Levels: bridleway cycleway footway living_street path pedestrian ... unknown&lt;/code&gt;&lt;/pre&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;roads[[3]]&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;/blog/2020-07-16-OSM_tutorial_files/figure-html/unnamed-chunk-10-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/blog/2020-07-16-OSM_tutorial_files/figure-html/unnamed-chunk-6-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;If you want to learn more about working with OSM in &lt;code&gt;R&lt;/code&gt;, you can also check out the &lt;a href=&#34;https://cran.r-project.org/web/packages/osmdata/vignettes/osmdata.html&#34;&gt;&lt;code&gt;osmdata&lt;/code&gt;&lt;/a&gt; package, which looks really helpful if you want to pull data directly from OSM.&lt;/p&gt;
 </description>
     </item>

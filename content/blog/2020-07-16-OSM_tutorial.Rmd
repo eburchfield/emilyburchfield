@@ -65,26 +65,6 @@ inspect_shp <- function(dir) {
 
 Let's try out our `inspect_shp()` function:
 
-```{r}
-out <- inspect_shp(shp_list[2])
-```
-
-```{r}
-out[[2]]
-```
-
-```{r}
-out[[3]]
-```
-
-Let's inspect some of the other datasets:
-
-```{r message=F, warning=F}
-places <- inspect_shp(shp_list[5])
-places[[2]]
-places[[3]]
-```
-
 ```{r message=F, warning=F}
 roads <- inspect_shp(shp_list[12])
 roads[[2]]

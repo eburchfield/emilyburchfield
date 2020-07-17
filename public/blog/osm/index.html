@@ -682,25 +682,6 @@ inspect_shp &lt;- function(dir) {
   return(out_list)
 }</code></pre>
 <p>Let’s try out our <code>inspect_shp()</code> function:</p>
-<pre class="r"><code>out &lt;- inspect_shp(shp_list[2])</code></pre>
-<pre><code>## [1] &quot;C:/Users/eburchf/OneDrive - Emory University/WF/Bangladesh/data/gis_osm_landuse_a_free_1.shp is a MULTIPOLYGON with 72833 observations.&quot;</code></pre>
-<pre class="r"><code>out[[2]]</code></pre>
-<pre><code>##  [1] park              forest            commercial        recreation_ground
-##  [5] military          retail            cemetery          industrial       
-##  [9] residential       nature_reserve    farm              grass            
-## [13] meadow            orchard           quarry            scrub            
-## [17] allotments        heath             vineyard         
-## 19 Levels: allotments cemetery commercial farm forest grass ... vineyard</code></pre>
-<pre class="r"><code>out[[3]]</code></pre>
-<p><img src="/blog/2020-07-16-OSM_tutorial_files/figure-html/unnamed-chunk-8-1.png" width="672" /></p>
-<p>Let’s inspect some of the other datasets:</p>
-<pre class="r"><code>places &lt;- inspect_shp(shp_list[5])</code></pre>
-<pre><code>## [1] &quot;C:/Users/eburchf/OneDrive - Emory University/WF/Bangladesh/data/gis_osm_places_a_free_1.shp is a MULTIPOLYGON with 225 observations.&quot;</code></pre>
-<pre class="r"><code>places[[2]]</code></pre>
-<pre><code>## [1] island   town     village  hamlet   locality city     suburb   farm    
-## Levels: city farm hamlet island locality suburb town village</code></pre>
-<pre class="r"><code>places[[3]]</code></pre>
-<p><img src="/blog/2020-07-16-OSM_tutorial_files/figure-html/unnamed-chunk-9-1.png" width="672" /></p>
 <pre class="r"><code>roads &lt;- inspect_shp(shp_list[12])</code></pre>
 <pre><code>## [1] &quot;C:/Users/eburchf/OneDrive - Emory University/WF/Bangladesh/data/gis_osm_roads_free_1.shp is a LINESTRING with 331452 observations.&quot;</code></pre>
 <pre class="r"><code>roads[[2]]</code></pre>
@@ -711,7 +692,7 @@ inspect_shp &lt;- function(dir) {
 ## [21] tertiary_link  cycleway       track_grade3   track_grade2   track_grade5  
 ## 25 Levels: bridleway cycleway footway living_street path pedestrian ... unknown</code></pre>
 <pre class="r"><code>roads[[3]]</code></pre>
-<p><img src="/blog/2020-07-16-OSM_tutorial_files/figure-html/unnamed-chunk-10-1.png" width="672" /></p>
+<p><img src="/blog/2020-07-16-OSM_tutorial_files/figure-html/unnamed-chunk-6-1.png" width="672" /></p>
 <p>If you want to learn more about working with OSM in <code>R</code>, you can also check out the <a href="https://cran.r-project.org/web/packages/osmdata/vignettes/osmdata.html"><code>osmdata</code></a> package, which looks really helpful if you want to pull data directly from OSM.</p>
 
     </div>
