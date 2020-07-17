@@ -2,21 +2,124 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Emily Burchfield</title>
-    <link>/</link>
-      <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://emilyburchfield.netlify.app/</link>
+      <atom:link href="https://emilyburchfield.netlify.app/index.xml" rel="self" type="application/rss+xml" />
     <description>Emily Burchfield</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 17 Jun 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 16 Jul 2020 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/img/Burchfield_head_shot.jpg</url>
+      <url>https://emilyburchfield.netlify.app/img/Burchfield_head_shot.jpg</url>
       <title>Emily Burchfield</title>
-      <link>/</link>
+      <link>https://emilyburchfield.netlify.app/</link>
     </image>
     
     <item>
+      <title>OSM Resource</title>
+      <link>https://emilyburchfield.netlify.app/blog/osm/</link>
+      <pubDate>Thu, 16 Jul 2020 00:00:00 +0000</pubDate>
+      <guid>https://emilyburchfield.netlify.app/blog/osm/</guid>
+      <description>
+
+
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;library(tidyverse)
+library(sf)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;I just discovered &lt;a href=&#34;https://www.geofabrik.de/&#34;&gt;Geofabrik’s&lt;/a&gt; clean daily shapefiles of &lt;a href=&#34;https://www.openstreetmap.org/#map=7/23.544/90.344&#34;&gt;OpenStreetMap data&lt;/a&gt; for basically every country on EARTH. In this post, I’ll work with data from Bangladesh which you can download by clicking the &lt;code&gt;[.shp.zip]&lt;/code&gt; file next to Bangladesh &lt;a href=&#34;http://download.geofabrik.de/asia.html&#34;&gt;here&lt;/a&gt;. As you start playing with this data, you’ll probably also want to review the metadata for the shapefiles, which you can find &lt;a href=&#34;download.geofabrik.de/osm-data-in-gis-formats-free.pdf&#34;&gt;here&lt;/a&gt;. I dropped the downloaded shapefiles in a &lt;code&gt;data&lt;/code&gt; folder on my machine. Note that all files for Bangladesh are around 2.7 GB, so if you’re following along on a storage-challenged machine, you might want to go with a smaller country.&lt;/p&gt;
+&lt;p&gt;Let’s start by inspecting what’s in this folder. We can print out all of the files with extension &lt;code&gt;.shp&lt;/code&gt; by running the following code (remember, this assumes you’ve moved all of your data to a &lt;code&gt;/data&lt;/code&gt; sub-folder in your working directory):&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;shp_list &amp;lt;- Sys.glob(&amp;quot;./data/*.shp&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;shp_list&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;##  [1] &amp;quot;C:/Users/eburchf/OneDrive - Emory University/WF/Bangladesh/data/gis_osm_buildings_a_free_1.shp&amp;quot;
+##  [2] &amp;quot;C:/Users/eburchf/OneDrive - Emory University/WF/Bangladesh/data/gis_osm_landuse_a_free_1.shp&amp;quot;  
+##  [3] &amp;quot;C:/Users/eburchf/OneDrive - Emory University/WF/Bangladesh/data/gis_osm_natural_a_free_1.shp&amp;quot;  
+##  [4] &amp;quot;C:/Users/eburchf/OneDrive - Emory University/WF/Bangladesh/data/gis_osm_natural_free_1.shp&amp;quot;    
+##  [5] &amp;quot;C:/Users/eburchf/OneDrive - Emory University/WF/Bangladesh/data/gis_osm_places_a_free_1.shp&amp;quot;   
+##  [6] &amp;quot;C:/Users/eburchf/OneDrive - Emory University/WF/Bangladesh/data/gis_osm_places_free_1.shp&amp;quot;     
+##  [7] &amp;quot;C:/Users/eburchf/OneDrive - Emory University/WF/Bangladesh/data/gis_osm_pofw_a_free_1.shp&amp;quot;     
+##  [8] &amp;quot;C:/Users/eburchf/OneDrive - Emory University/WF/Bangladesh/data/gis_osm_pofw_free_1.shp&amp;quot;       
+##  [9] &amp;quot;C:/Users/eburchf/OneDrive - Emory University/WF/Bangladesh/data/gis_osm_pois_a_free_1.shp&amp;quot;     
+## [10] &amp;quot;C:/Users/eburchf/OneDrive - Emory University/WF/Bangladesh/data/gis_osm_pois_free_1.shp&amp;quot;       
+## [11] &amp;quot;C:/Users/eburchf/OneDrive - Emory University/WF/Bangladesh/data/gis_osm_railways_free_1.shp&amp;quot;   
+## [12] &amp;quot;C:/Users/eburchf/OneDrive - Emory University/WF/Bangladesh/data/gis_osm_roads_free_1.shp&amp;quot;      
+## [13] &amp;quot;C:/Users/eburchf/OneDrive - Emory University/WF/Bangladesh/data/gis_osm_traffic_a_free_1.shp&amp;quot;  
+## [14] &amp;quot;C:/Users/eburchf/OneDrive - Emory University/WF/Bangladesh/data/gis_osm_traffic_free_1.shp&amp;quot;    
+## [15] &amp;quot;C:/Users/eburchf/OneDrive - Emory University/WF/Bangladesh/data/gis_osm_transport_a_free_1.shp&amp;quot;
+## [16] &amp;quot;C:/Users/eburchf/OneDrive - Emory University/WF/Bangladesh/data/gis_osm_transport_free_1.shp&amp;quot;  
+## [17] &amp;quot;C:/Users/eburchf/OneDrive - Emory University/WF/Bangladesh/data/gis_osm_water_a_free_1.shp&amp;quot;    
+## [18] &amp;quot;C:/Users/eburchf/OneDrive - Emory University/WF/Bangladesh/data/gis_osm_waterways_free_1.shp&amp;quot;  
+## [19] &amp;quot;C:/Users/eburchf/OneDrive - Emory University/WF/Bangladesh/data/roi.shp&amp;quot;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Lots to dig through. We can also use this new &lt;code&gt;my_shp&lt;/code&gt; list to help us open files. Let’s build a function to help us inspect the contents of each shapefile.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;# Note that some of the shapefiles might take awhile to load
+inspect_shp &amp;lt;- function(dir) {
+  
+  shp &amp;lt;- st_read(dir, quiet = T)
+  print(paste0(dir, &amp;quot; is a &amp;quot;, st_geometry_type(shp)[1], &amp;quot; with &amp;quot;, nrow(shp), &amp;quot; observations.&amp;quot;))
+  
+  fclass_list &amp;lt;- unique(shp$fclass)
+  
+  shp_plt &amp;lt;- ggplot(shp) +
+    geom_sf() +
+    theme_minimal() +
+    labs(title = dir,
+         subtitle = &amp;quot;From Geofabrik.de&amp;quot;)
+
+  # dump anything you want to return from the function in this list
+  out_list &amp;lt;- list(shp, fclass_list, shp_plt)
+  
+  return(out_list)
+}&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Let’s try out our &lt;code&gt;inspect_shp()&lt;/code&gt; function:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;out &amp;lt;- inspect_shp(shp_list[2])&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## [1] &amp;quot;C:/Users/eburchf/OneDrive - Emory University/WF/Bangladesh/data/gis_osm_landuse_a_free_1.shp is a MULTIPOLYGON with 72833 observations.&amp;quot;&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;out[[2]]&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;##  [1] park              forest            commercial        recreation_ground
+##  [5] military          retail            cemetery          industrial       
+##  [9] residential       nature_reserve    farm              grass            
+## [13] meadow            orchard           quarry            scrub            
+## [17] allotments        heath             vineyard         
+## 19 Levels: allotments cemetery commercial farm forest grass ... vineyard&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;out[[3]]&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;https://emilyburchfield.netlify.app/blog/2020-07-16-OSM_tutorial_files/figure-html/unnamed-chunk-8-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;Let’s inspect some of the other datasets:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;places &amp;lt;- inspect_shp(shp_list[5])&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## [1] &amp;quot;C:/Users/eburchf/OneDrive - Emory University/WF/Bangladesh/data/gis_osm_places_a_free_1.shp is a MULTIPOLYGON with 225 observations.&amp;quot;&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;places[[2]]&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## [1] island   town     village  hamlet   locality city     suburb   farm    
+## Levels: city farm hamlet island locality suburb town village&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;places[[3]]&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;https://emilyburchfield.netlify.app/blog/2020-07-16-OSM_tutorial_files/figure-html/unnamed-chunk-9-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;water &amp;lt;- inspect_shp(shp_list[17])&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## [1] &amp;quot;C:/Users/eburchf/OneDrive - Emory University/WF/Bangladesh/data/gis_osm_water_a_free_1.shp is a MULTIPOLYGON with 325559 observations.&amp;quot;&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;water[[2]]&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## [1] water     river     wetland   reservoir dock     
+## Levels: dock reservoir river water wetland&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;water[[3]]&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;https://emilyburchfield.netlify.app/blog/2020-07-16-OSM_tutorial_files/figure-html/unnamed-chunk-10-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;roads &amp;lt;- inspect_shp(shp_list[12])&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## [1] &amp;quot;C:/Users/eburchf/OneDrive - Emory University/WF/Bangladesh/data/gis_osm_roads_free_1.shp is a LINESTRING with 331452 observations.&amp;quot;&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;roads[[2]]&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;##  [1] residential    trunk          primary        tertiary       service       
+##  [6] pedestrian     unclassified   secondary      trunk_link     living_street 
+## [11] secondary_link primary_link   footway        path           track         
+## [16] unknown        bridleway      steps          track_grade1   track_grade4  
+## [21] tertiary_link  cycleway       track_grade3   track_grade2   track_grade5  
+## 25 Levels: bridleway cycleway footway living_street path pedestrian ... unknown&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;roads[[3]]&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;https://emilyburchfield.netlify.app/blog/2020-07-16-OSM_tutorial_files/figure-html/unnamed-chunk-11-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;If you want to learn more about working with OSM in &lt;code&gt;R&lt;/code&gt;, you can also check out the &lt;a href=&#34;https://cran.r-project.org/web/packages/osmdata/vignettes/osmdata.html&#34;&gt;&lt;code&gt;osmdata&lt;/code&gt;&lt;/a&gt; package, which looks really helpful if you want to pull data directly from OSM.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Bright spots in US corn production</title>
+      <link>https://emilyburchfield.netlify.app/publication/2020_bs/</link>
+      <pubDate>Wed, 15 Jul 2020 00:00:00 +0000</pubDate>
+      <guid>https://emilyburchfield.netlify.app/publication/2020_bs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Mapping protest</title>
-      <link>/blog/mapping-protest/</link>
+      <link>https://emilyburchfield.netlify.app/blog/mapping-protest/</link>
       <pubDate>Wed, 17 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>/blog/mapping-protest/</guid>
+      <guid>https://emilyburchfield.netlify.app/blog/mapping-protest/</guid>
       <description>
 
 
@@ -128,7 +231,7 @@ glimpse(protests)&lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;
 &lt;div id=&#34;visualizations&#34; class=&#34;section level1&#34;&gt;
 &lt;h1&gt;Visualizations&lt;/h1&gt;
-&lt;p&gt;&lt;img src=&#34;/blog/2020-06-17-mapping-protest_files/figure-html/unnamed-chunk-10-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://emilyburchfield.netlify.app/blog/2020-06-17-mapping-protest_files/figure-html/unnamed-chunk-10-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;div id=&#34;other-relevant-datasets-and-resources&#34; class=&#34;section level1&#34;&gt;
 &lt;h1&gt;Other relevant datasets and resources&lt;/h1&gt;
@@ -150,28 +253,29 @@ glimpse(protests)&lt;/code&gt;&lt;/pre&gt;
     
     <item>
       <title>Changing yields in the central US under climate and technological change</title>
-      <link>/publication/2019_cc/</link>
+      <link>https://emilyburchfield.netlify.app/publication/2019_cc/</link>
       <pubDate>Mon, 09 Dec 2019 00:00:00 +0000</pubDate>
-      <guid>/publication/2019_cc/</guid>
+      <guid>https://emilyburchfield.netlify.app/publication/2019_cc/</guid>
       <description></description>
     </item>
     
     <item>
       <title>The impact of agricultural landscape diversification on US crop production</title>
-      <link>/publication/2019_aee/</link>
+      <link>https://emilyburchfield.netlify.app/publication/2019_aee/</link>
       <pubDate>Sun, 01 Sep 2019 00:00:00 +0000</pubDate>
-      <guid>/publication/2019_aee/</guid>
+      <guid>https://emilyburchfield.netlify.app/publication/2019_aee/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Agricultural Diversity</title>
-      <link>/project/diversity/</link>
+      <link>https://emilyburchfield.netlify.app/project/diversity/</link>
       <pubDate>Thu, 27 Jun 2019 00:00:00 +0000</pubDate>
-      <guid>/project/diversity/</guid>
+      <guid>https://emilyburchfield.netlify.app/project/diversity/</guid>
       <description>&lt;p&gt;Simplification of global landscapes, driven by the expansion and intensification of agriculture, has provided immediate gains for agricultural production, but also degraded beneficial ecosystem processes that support continued agricultural production. There is field-scale evidence of land use diversity&amp;rsquo;s positive impacts on ecosystem health and agricultural production. However, the impacts of land use diversity at landscape scales, at which land use interacts with biophysical phenomena and human activities, is not well understood.&lt;/p&gt;
 &lt;p&gt;Our goal is to provide solutions for sustainable agriculture by characterizing how and why landscape simplification affects ecosystem health and agricultural productivity and by identifying barriers to landscape diversification.&lt;/p&gt;
-&lt;p&gt;This project is funded by GRANT INFORMATION.  Other folks on the grant are 
+&lt;p&gt;This project is funded by USDA NIFA (
+&lt;a href=&#34;https://cris.nifa.usda.gov/cgi-bin/starfinder/0?path=fastlink1.txt&amp;amp;id=anon&amp;amp;pass=&amp;amp;search=R=87791&amp;amp;format=WEBLINK&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Grant 2020-67019-31157&lt;/a&gt;).  Other folks on the grant are 
 &lt;a href=&#34;https://www.k-state.edu/geography/people/faculty/knelson.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Dr. Kate Nelson&lt;/a&gt; and 
 &lt;a href=&#34;https://hnr.k-state.edu/people/faculty/cowan-jeremy/index.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Dr. Jeremy Cowan&lt;/a&gt; both at Kansas State University.&lt;/p&gt;
 &lt;h2 id=&#34;publications&#34;&gt;Publications&lt;/h2&gt;
@@ -179,31 +283,36 @@ glimpse(protests)&lt;/code&gt;&lt;/pre&gt;
 &lt;li&gt;Spangler, K., &lt;strong&gt;Burchfield, E.&lt;/strong&gt;, Schumacher, B. (2019) Past and current dynamics of US agricultural land use and policy. In press at &lt;em&gt;Frontiers in Sustainable Food Systems.&lt;/em&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Burchfield, E.&lt;/strong&gt;, Nelson, K., Spangler, K. (2019).  The impact of agricultural diversification on U.S. crop production. &lt;em&gt;Agriculture, Ecosystems &amp;amp; Environment.&lt;/em&gt; &lt;em&gt;285&lt;/em&gt; 106615. 
 &lt;a href=&#34;https://doi.org/10.1016/j.agee.2019.106615&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://doi.org/10.1016/j.agee.2019.106615&lt;/a&gt;.  Preprint available
-&lt;a href=&#34;/files/Burchfield_SDI_preprint.pdf&#34;&gt;here&lt;/a&gt;&lt;/li&gt;
+&lt;a href=&#34;https://emilyburchfield.netlify.app/files/Burchfield_SDI_preprint.pdf&#34;&gt;here&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;talks&#34;&gt;Talks&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;An overview of our AEE paper given to the PhenoRob group at the University of Bonn in June, 2020 can be found 
+&lt;a href=&#34;https://www.youtube.com/watch?v=2qbEkD6eQtI&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>
     
     <item>
       <title>Future Cropscapes</title>
-      <link>/project/cropscapes/</link>
+      <link>https://emilyburchfield.netlify.app/project/cropscapes/</link>
       <pubDate>Thu, 27 Jun 2019 00:00:00 +0000</pubDate>
-      <guid>/project/cropscapes/</guid>
+      <guid>https://emilyburchfield.netlify.app/project/cropscapes/</guid>
       <description>&lt;p&gt;Future changes in climate will significantly transform US agriculture both through changes in &lt;em&gt;production&lt;/em&gt; and the &lt;em&gt;production geography&lt;/em&gt; of many crops.Through iterative participatory modeling, this project will generate productions of future production geographies of major crops cultivated in the Central and Eastern US under multiple stakeholder-generated scenarios of climatic and sociotechnical change.&lt;/p&gt;
 &lt;h2 id=&#34;publications&#34;&gt;Publications&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Burchfield, E.&lt;/strong&gt;, Matthews-Pennanen, N., Stoebner, J., Lant, C. (2019).  Changing yields in the Central United States under climate and technological change. &lt;em&gt;Climatic Change&lt;/em&gt;, &lt;em&gt;159&lt;/em&gt;, 329-346. 
 &lt;a href=&#34;https://doi.org/10.1007/s10584-019-02567-7&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://doi.org/10.1007/s10584-019-02567-7&lt;/a&gt;. Preprint available 
-&lt;a href=&#34;/files/Burchfield_FY_preprint.pdf&#34;&gt;here&lt;/a&gt;.&lt;/li&gt;
+&lt;a href=&#34;https://emilyburchfield.netlify.app/files/Burchfield_FY_preprint.pdf&#34;&gt;here&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>
     
     <item>
       <title>Smallholder Adaptation to Drought</title>
-      <link>/project/sri_lanka/</link>
+      <link>https://emilyburchfield.netlify.app/project/sri_lanka/</link>
       <pubDate>Thu, 27 Jun 2019 00:00:00 +0000</pubDate>
-      <guid>/project/sri_lanka/</guid>
+      <guid>https://emilyburchfield.netlify.app/project/sri_lanka/</guid>
       <description>&lt;p&gt;Small-scale farmers in the Global South are among the most vulnerable to climate change. Our research aims to gain a better understanding of how farmers in Sri Lanka, in particular, are adjusting their practices to deal with climate change effects. Since 2010, researchers from Vanderbilt University&amp;rsquo;s Institute for Energy and Environment (VIEE) have partnered with the National Building Research Organization (NBRO) in Sri Lanka to examine the connections between agricultural adaptation and climate change in the dry zone of Sri Lanka.  To learn more about the larger project (Agricultural Decision Making and Adaptation to Precipitation Trends in Sri Lanka or ADAPT-SL), please visit the main project website 
 &lt;a href=&#34;https://my.vanderbilt.edu/srilankaproject/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;.  You can check out the &lt;code&gt;forecastVeg&lt;/code&gt; tool made by Dr. Burchfield and Dr. Nay 
 &lt;a href=&#34;http://johnjnay.com/forecastVeg/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;&lt;/p&gt;
