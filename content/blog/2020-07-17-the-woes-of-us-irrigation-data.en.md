@@ -1,5 +1,5 @@
 ---
-title: (The woes of) US irrigation data
+title: Working with US irrigation data
 author: Emily Burchfield
 date: '2020-07-17'
 slug: the-woes-of-us-irrigation-data
