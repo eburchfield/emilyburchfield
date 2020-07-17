@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Agricultural Adaptation | Emily Burchfield</title>
-    <link>/tag/agricultural-adaptation/</link>
-      <atom:link href="/tag/agricultural-adaptation/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://emilyburchfield.netlify.app/tag/agricultural-adaptation/</link>
+      <atom:link href="https://emilyburchfield.netlify.app/tag/agricultural-adaptation/index.xml" rel="self" type="application/rss+xml" />
     <description>Agricultural Adaptation</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 09 Dec 2019 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/img/Burchfield_head_shot.jpg</url>
+      <url>https://emilyburchfield.netlify.app/img/Burchfield_head_shot.jpg</url>
       <title>Agricultural Adaptation</title>
-      <link>/tag/agricultural-adaptation/</link>
+      <link>https://emilyburchfield.netlify.app/tag/agricultural-adaptation/</link>
     </image>
     
     <item>
       <title>Changing yields in the central US under climate and technological change</title>
-      <link>/publication/2019_cc/</link>
+      <link>https://emilyburchfield.netlify.app/publication/2019_cc/</link>
       <pubDate>Mon, 09 Dec 2019 00:00:00 +0000</pubDate>
-      <guid>/publication/2019_cc/</guid>
+      <guid>https://emilyburchfield.netlify.app/publication/2019_cc/</guid>
       <description></description>
     </item>
     

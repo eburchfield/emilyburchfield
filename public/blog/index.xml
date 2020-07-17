@@ -2,29 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Blog | Emily Burchfield</title>
-    <link>/blog/</link>
-      <atom:link href="/blog/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://emilyburchfield.netlify.app/blog/</link>
+      <atom:link href="https://emilyburchfield.netlify.app/blog/index.xml" rel="self" type="application/rss+xml" />
     <description>Blog</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 17 Jul 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 16 Jul 2020 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/img/Burchfield_head_shot.jpg</url>
+      <url>https://emilyburchfield.netlify.app/img/Burchfield_head_shot.jpg</url>
       <title>Blog</title>
-      <link>/blog/</link>
+      <link>https://emilyburchfield.netlify.app/blog/</link>
     </image>
     
     <item>
-      <title>Working with US irrigation data</title>
-      <link>/blog/the-woes-of-us-irrigation-data/</link>
-      <pubDate>Fri, 17 Jul 2020 00:00:00 +0000</pubDate>
-      <guid>/blog/the-woes-of-us-irrigation-data/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>OSM Resource</title>
-      <link>/blog/osm/</link>
+      <link>https://emilyburchfield.netlify.app/blog/osm/</link>
       <pubDate>Thu, 16 Jul 2020 00:00:00 +0000</pubDate>
-      <guid>/blog/osm/</guid>
+      <guid>https://emilyburchfield.netlify.app/blog/osm/</guid>
       <description>
 
 
@@ -84,16 +76,16 @@ inspect_shp &amp;lt;- function(dir) {
 ## [21] tertiary_link  cycleway       track_grade3   track_grade2   track_grade5  
 ## 25 Levels: bridleway cycleway footway living_street path pedestrian ... unknown&lt;/code&gt;&lt;/pre&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;roads[[3]]&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;/blog/2020-07-16-OSM_tutorial_files/figure-html/unnamed-chunk-6-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://emilyburchfield.netlify.app/blog/2020-07-16-OSM_tutorial_files/figure-html/unnamed-chunk-6-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;If you want to learn more about working with OSM in &lt;code&gt;R&lt;/code&gt;, you can also check out the &lt;a href=&#34;https://cran.r-project.org/web/packages/osmdata/vignettes/osmdata.html&#34;&gt;&lt;code&gt;osmdata&lt;/code&gt;&lt;/a&gt; package, which looks really helpful if you want to pull data directly from OSM.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Mapping protest</title>
-      <link>/blog/mapping-protest/</link>
+      <link>https://emilyburchfield.netlify.app/blog/mapping-protest/</link>
       <pubDate>Wed, 17 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>/blog/mapping-protest/</guid>
+      <guid>https://emilyburchfield.netlify.app/blog/mapping-protest/</guid>
       <description>
 
 
@@ -205,7 +197,7 @@ glimpse(protests)&lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;
 &lt;div id=&#34;visualizations&#34; class=&#34;section level1&#34;&gt;
 &lt;h1&gt;Visualizations&lt;/h1&gt;
-&lt;p&gt;&lt;img src=&#34;/blog/2020-06-17-mapping-protest_files/figure-html/unnamed-chunk-10-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://emilyburchfield.netlify.app/blog/2020-06-17-mapping-protest_files/figure-html/unnamed-chunk-10-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;div id=&#34;other-relevant-datasets-and-resources&#34; class=&#34;section level1&#34;&gt;
 &lt;h1&gt;Other relevant datasets and resources&lt;/h1&gt;

@@ -2,37 +2,37 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>2 | Emily Burchfield</title>
-    <link>/publication-type/2/</link>
-      <atom:link href="/publication-type/2/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://emilyburchfield.netlify.app/publication-type/2/</link>
+      <atom:link href="https://emilyburchfield.netlify.app/publication-type/2/index.xml" rel="self" type="application/rss+xml" />
     <description>2</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 15 Jul 2020 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/img/Burchfield_head_shot.jpg</url>
+      <url>https://emilyburchfield.netlify.app/img/Burchfield_head_shot.jpg</url>
       <title>2</title>
-      <link>/publication-type/2/</link>
+      <link>https://emilyburchfield.netlify.app/publication-type/2/</link>
     </image>
     
     <item>
       <title>Bright spots in US corn production</title>
-      <link>/publication/2020_bs/</link>
+      <link>https://emilyburchfield.netlify.app/publication/2020_bs/</link>
       <pubDate>Wed, 15 Jul 2020 00:00:00 +0000</pubDate>
-      <guid>/publication/2020_bs/</guid>
+      <guid>https://emilyburchfield.netlify.app/publication/2020_bs/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Changing yields in the central US under climate and technological change</title>
-      <link>/publication/2019_cc/</link>
+      <link>https://emilyburchfield.netlify.app/publication/2019_cc/</link>
       <pubDate>Mon, 09 Dec 2019 00:00:00 +0000</pubDate>
-      <guid>/publication/2019_cc/</guid>
+      <guid>https://emilyburchfield.netlify.app/publication/2019_cc/</guid>
       <description></description>
     </item>
     
     <item>
       <title>The impact of agricultural landscape diversification on US crop production</title>
-      <link>/publication/2019_aee/</link>
+      <link>https://emilyburchfield.netlify.app/publication/2019_aee/</link>
       <pubDate>Sun, 01 Sep 2019 00:00:00 +0000</pubDate>
-      <guid>/publication/2019_aee/</guid>
+      <guid>https://emilyburchfield.netlify.app/publication/2019_aee/</guid>
       <description></description>
     </item>
     

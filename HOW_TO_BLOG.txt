@@ -1,0 +1,6 @@
+das process:
+
+create new post (don't knit)
+blogdown::serve_site() to look locally
+hugo::build_site() to build new public folder
+Git dat.
