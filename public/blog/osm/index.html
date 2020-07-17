@@ -30,7 +30,7 @@
   <meta name="description" content="library(tidyverse)library(sf)I just discovered Geofabrik’s clean daily shapefiles of OpenStreetMap data for basically every country on EARTH. In this post, I’ll work with data from Bangladesh which you can download by clicking the [.">
 
   
-  <link rel="alternate" hreflang="en-us" href="https://emilyburchfield.netlify.app/blog/osm/">
+  <link rel="alternate" hreflang="en-us" href="/blog/osm/">
 
   
 
@@ -217,7 +217,7 @@
   <link rel="icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_32x32_fill_lanczos_center_2.png">
   <link rel="apple-touch-icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_2.png">
 
-  <link rel="canonical" href="https://emilyburchfield.netlify.app/blog/osm/">
+  <link rel="canonical" href="/blog/osm/">
 
   
   
@@ -232,10 +232,10 @@
   <meta property="twitter:card" content="summary_large_image">
   
   <meta property="og:site_name" content="Emily Burchfield">
-  <meta property="og:url" content="https://emilyburchfield.netlify.app/blog/osm/">
+  <meta property="og:url" content="/blog/osm/">
   <meta property="og:title" content="OSM Resource | Emily Burchfield">
-  <meta property="og:description" content="library(tidyverse)library(sf)I just discovered Geofabrik’s clean daily shapefiles of OpenStreetMap data for basically every country on EARTH. In this post, I’ll work with data from Bangladesh which you can download by clicking the [."><meta property="og:image" content="https://emilyburchfield.netlify.app/img/Burchfield_head_shot.jpg">
-  <meta property="twitter:image" content="https://emilyburchfield.netlify.app/img/Burchfield_head_shot.jpg"><meta property="og:locale" content="en-us">
+  <meta property="og:description" content="library(tidyverse)library(sf)I just discovered Geofabrik’s clean daily shapefiles of OpenStreetMap data for basically every country on EARTH. In this post, I’ll work with data from Bangladesh which you can download by clicking the [."><meta property="og:image" content="/img/Burchfield_head_shot.jpg">
+  <meta property="twitter:image" content="/img/Burchfield_head_shot.jpg"><meta property="og:locale" content="en-us">
   
     
       <meta property="article:published_time" content="2020-07-16T00:00:00&#43;00:00">
@@ -701,13 +701,6 @@ inspect_shp &lt;- function(dir) {
 ## Levels: city farm hamlet island locality suburb town village</code></pre>
 <pre class="r"><code>places[[3]]</code></pre>
 <p><img src="/blog/2020-07-16-OSM_tutorial_files/figure-html/unnamed-chunk-9-1.png" width="672" /></p>
-<pre class="r"><code>water &lt;- inspect_shp(shp_list[17])</code></pre>
-<pre><code>## [1] &quot;C:/Users/eburchf/OneDrive - Emory University/WF/Bangladesh/data/gis_osm_water_a_free_1.shp is a MULTIPOLYGON with 325559 observations.&quot;</code></pre>
-<pre class="r"><code>water[[2]]</code></pre>
-<pre><code>## [1] water     river     wetland   reservoir dock     
-## Levels: dock reservoir river water wetland</code></pre>
-<pre class="r"><code>water[[3]]</code></pre>
-<p><img src="/blog/2020-07-16-OSM_tutorial_files/figure-html/unnamed-chunk-10-1.png" width="672" /></p>
 <pre class="r"><code>roads &lt;- inspect_shp(shp_list[12])</code></pre>
 <pre><code>## [1] &quot;C:/Users/eburchf/OneDrive - Emory University/WF/Bangladesh/data/gis_osm_roads_free_1.shp is a LINESTRING with 331452 observations.&quot;</code></pre>
 <pre class="r"><code>roads[[2]]</code></pre>
@@ -718,7 +711,7 @@ inspect_shp &lt;- function(dir) {
 ## [21] tertiary_link  cycleway       track_grade3   track_grade2   track_grade5  
 ## 25 Levels: bridleway cycleway footway living_street path pedestrian ... unknown</code></pre>
 <pre class="r"><code>roads[[3]]</code></pre>
-<p><img src="/blog/2020-07-16-OSM_tutorial_files/figure-html/unnamed-chunk-11-1.png" width="672" /></p>
+<p><img src="/blog/2020-07-16-OSM_tutorial_files/figure-html/unnamed-chunk-10-1.png" width="672" /></p>
 <p>If you want to learn more about working with OSM in <code>R</code>, you can also check out the <a href="https://cran.r-project.org/web/packages/osmdata/vignettes/osmdata.html"><code>osmdata</code></a> package, which looks really helpful if you want to pull data directly from OSM.</p>
 
     </div>

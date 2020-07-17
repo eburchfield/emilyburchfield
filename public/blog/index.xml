@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Blog | Emily Burchfield</title>
-    <link>https://emilyburchfield.netlify.app/blog/</link>
-      <atom:link href="https://emilyburchfield.netlify.app/blog/index.xml" rel="self" type="application/rss+xml" />
+    <link>/blog/</link>
+      <atom:link href="/blog/index.xml" rel="self" type="application/rss+xml" />
     <description>Blog</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 16 Jul 2020 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://emilyburchfield.netlify.app/img/Burchfield_head_shot.jpg</url>
+      <url>/img/Burchfield_head_shot.jpg</url>
       <title>Blog</title>
-      <link>https://emilyburchfield.netlify.app/blog/</link>
+      <link>/blog/</link>
     </image>
     
     <item>
       <title>OSM Resource</title>
-      <link>https://emilyburchfield.netlify.app/blog/osm/</link>
+      <link>/blog/osm/</link>
       <pubDate>Thu, 16 Jul 2020 00:00:00 +0000</pubDate>
-      <guid>https://emilyburchfield.netlify.app/blog/osm/</guid>
+      <guid>/blog/osm/</guid>
       <description>
 
 
@@ -76,7 +76,7 @@ inspect_shp &amp;lt;- function(dir) {
 ## [17] allotments        heath             vineyard         
 ## 19 Levels: allotments cemetery commercial farm forest grass ... vineyard&lt;/code&gt;&lt;/pre&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;out[[3]]&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;https://emilyburchfield.netlify.app/blog/2020-07-16-OSM_tutorial_files/figure-html/unnamed-chunk-8-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/blog/2020-07-16-OSM_tutorial_files/figure-html/unnamed-chunk-8-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;Let’s inspect some of the other datasets:&lt;/p&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;places &amp;lt;- inspect_shp(shp_list[5])&lt;/code&gt;&lt;/pre&gt;
 &lt;pre&gt;&lt;code&gt;## [1] &amp;quot;C:/Users/eburchf/OneDrive - Emory University/WF/Bangladesh/data/gis_osm_places_a_free_1.shp is a MULTIPOLYGON with 225 observations.&amp;quot;&lt;/code&gt;&lt;/pre&gt;
@@ -84,14 +84,7 @@ inspect_shp &amp;lt;- function(dir) {
 &lt;pre&gt;&lt;code&gt;## [1] island   town     village  hamlet   locality city     suburb   farm    
 ## Levels: city farm hamlet island locality suburb town village&lt;/code&gt;&lt;/pre&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;places[[3]]&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;https://emilyburchfield.netlify.app/blog/2020-07-16-OSM_tutorial_files/figure-html/unnamed-chunk-9-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;water &amp;lt;- inspect_shp(shp_list[17])&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;## [1] &amp;quot;C:/Users/eburchf/OneDrive - Emory University/WF/Bangladesh/data/gis_osm_water_a_free_1.shp is a MULTIPOLYGON with 325559 observations.&amp;quot;&lt;/code&gt;&lt;/pre&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;water[[2]]&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;## [1] water     river     wetland   reservoir dock     
-## Levels: dock reservoir river water wetland&lt;/code&gt;&lt;/pre&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;water[[3]]&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;https://emilyburchfield.netlify.app/blog/2020-07-16-OSM_tutorial_files/figure-html/unnamed-chunk-10-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/blog/2020-07-16-OSM_tutorial_files/figure-html/unnamed-chunk-9-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;roads &amp;lt;- inspect_shp(shp_list[12])&lt;/code&gt;&lt;/pre&gt;
 &lt;pre&gt;&lt;code&gt;## [1] &amp;quot;C:/Users/eburchf/OneDrive - Emory University/WF/Bangladesh/data/gis_osm_roads_free_1.shp is a LINESTRING with 331452 observations.&amp;quot;&lt;/code&gt;&lt;/pre&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;roads[[2]]&lt;/code&gt;&lt;/pre&gt;
@@ -102,16 +95,16 @@ inspect_shp &amp;lt;- function(dir) {
 ## [21] tertiary_link  cycleway       track_grade3   track_grade2   track_grade5  
 ## 25 Levels: bridleway cycleway footway living_street path pedestrian ... unknown&lt;/code&gt;&lt;/pre&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;roads[[3]]&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;https://emilyburchfield.netlify.app/blog/2020-07-16-OSM_tutorial_files/figure-html/unnamed-chunk-11-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/blog/2020-07-16-OSM_tutorial_files/figure-html/unnamed-chunk-10-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;If you want to learn more about working with OSM in &lt;code&gt;R&lt;/code&gt;, you can also check out the &lt;a href=&#34;https://cran.r-project.org/web/packages/osmdata/vignettes/osmdata.html&#34;&gt;&lt;code&gt;osmdata&lt;/code&gt;&lt;/a&gt; package, which looks really helpful if you want to pull data directly from OSM.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Mapping protest</title>
-      <link>https://emilyburchfield.netlify.app/blog/mapping-protest/</link>
+      <link>/blog/mapping-protest/</link>
       <pubDate>Wed, 17 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>https://emilyburchfield.netlify.app/blog/mapping-protest/</guid>
+      <guid>/blog/mapping-protest/</guid>
       <description>
 
 
@@ -223,7 +216,7 @@ glimpse(protests)&lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;
 &lt;div id=&#34;visualizations&#34; class=&#34;section level1&#34;&gt;
 &lt;h1&gt;Visualizations&lt;/h1&gt;
-&lt;p&gt;&lt;img src=&#34;https://emilyburchfield.netlify.app/blog/2020-06-17-mapping-protest_files/figure-html/unnamed-chunk-10-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/blog/2020-06-17-mapping-protest_files/figure-html/unnamed-chunk-10-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;div id=&#34;other-relevant-datasets-and-resources&#34; class=&#34;section level1&#34;&gt;
 &lt;h1&gt;Other relevant datasets and resources&lt;/h1&gt;

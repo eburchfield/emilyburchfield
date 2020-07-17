@@ -86,12 +86,6 @@ places[[3]]
 ```
 
 ```{r message=F, warning=F}
-water <- inspect_shp(shp_list[17])
-water[[2]]
-water[[3]]
-```
-
-```{r message=F, warning=F}
 roads <- inspect_shp(shp_list[12])
 roads[[2]]
 roads[[3]]
