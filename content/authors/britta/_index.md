@@ -1,6 +1,5 @@
 ---
 authors:
-- admin
 bio:  
 # education:
 #   courses:
