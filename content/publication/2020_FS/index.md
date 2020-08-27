@@ -1,39 +1,39 @@
 ---
-abstract: Over the past century, agricultural land use in the United States has seen drastic shifts to support increasing demand for food and commodities; in many regions, this has resulted in highly simplified agricultural landscapes. Surmounting evidence exhibits the negative impacts of this simplification on the long-term provisioning of necessary ecosystem services to and from agriculture. However, transitions toward alternative systems often occur at a small scale, rather than at a systemic level. Within the National Research Council's (NRC) sustainable agricultural systems framework, we utilize national open-source datasets spanning several decades to broadly assess past and current agricultural landscapes across the U.S. We integrate and analyze agricultural land use and land cover data with policy data to address two main objectives: (1) Document and visualize changes over recent decades in cropland conversion, agricultural productivity, and crop composition across the U.S.; and (2) identify broad policy changes of the U.S. Farm Bills from 1933 to 2018 associated with these land use trends. We show that U.S. agriculture has gradually trended toward an intensely regulated and specialized system. Crop production is heavily concentrated in certain areas, larger farms are getting larger, while the number of smaller operations is decreasing, and crop diversity is declining. Meanwhile, federal agricultural policy is increasing in scope and influence. Through these data-driven insights, we argue that incremental and transformative pathways of change are needed to support alternative production practices, incentivize diversified landscapes, and promote innovation toward more sustainable agricultural systems across multiple scales. You can read the full paper [here](https://www.frontiersin.org/articles/10.3389/fsufs.2020.00098/full).
+abstract: This paper projects the race between technologically driven increases in crop yields and changing climatic conditions in the central USA, one of the world's most productive agricultural regions. Using the highest, average, and lowest decadal rates of technologically driven increases in crop yields over the 1980 to 2017 period, we develop spatially explicit yield scenarios to the end of the twenty-first century under RCP4.5 and RCP8.5. We find that with static technological innovation, severe climate change will decrease yields by an average of 22.4 percent (26.1 bu. ac???1) for maize, 27.9 percent (8.83 bu. ac???1) for soybeans, and 20 percent (7.14 bu. ac???1) for winter wheat in the central USA; however, with even the lowest rates of technological yield growth, yields increase by an average of 25.0 percent (40.5 bu. ac???1) for maize and 30.2 percent (14.2 bu. ac???1) for soybeans. We conclude that technology has the potential to overcome the negative impacts of climate change on the yields of maize, soybeans, and winter wheat in the central USA, but if these increases are to be environmentally sustainable, technological developments must be informationintensive rather than input-intensive.
 
 # author_notes:
 # - Equal contribution
 # - Equal contribution
 authors:
-- Kaitlyn Spangler
-- Britta Schumacher
 - admin
-
-date: "2020-08-27T00:00:00Z"
+- Neil Matthews-Pennanen
+- Justin Schoof
+- Christopher Lant
+#date: "2019-09-01T00:00:00Z"
 doi: ""
-featured: true
+featured: false
 image:
   caption: 'Figure from paper'
   focal_point: ""
   preview_only: false
-projects: ["Diversity"]
+projects: ["Cropscapes"]
 publication: '*Frontiers in Sustainable Food Systems*'
 # publication_short: ""
 publication_types:
 - "2"
-publishDate: "2020-08-02T00:00:00Z"
+publishDate: "2020-07-21T00:00:00Z"
 # slides: example
 # summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus
 #   ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
 tags:
+- Future Cropscapes
 - Yield
-- Sustainable Agriculture
-- Corn
-- Agricultural Policy
+- Agricultural Adaptation
+- Projection
 title: Past and Current Dynamics of U.S. Agricultural Land Use and Policy
 url_code: ""
 url_dataset: ""
-url_pdf: "https://www.frontiersin.org/articles/10.3389/fsufs.2020.00098/full"
+url_pdf: /files/2020_Spangler.pdf
 url_poster: ""
 url_project: ""
 url_slides: ""
