@@ -30,7 +30,7 @@ role: MS student, Ecology
 superuser: false
 title: Britta Schumacher
 user_groups:
-- "Graduate Students"
+#- "Graduate Students"
 
 ---
 
