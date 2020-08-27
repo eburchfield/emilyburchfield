@@ -1,5 +1,5 @@
 ---
-abstract: Test
+abstract: How has agricultural land use and land cover changed?  What are the major policy shifts associated with these changes?  We show that U.S. agriculture has gradually trended toward an intensely regulated and specialized system. Crop production is heavily concentrated in certain areas, larger farms are getting larger, while the number of smaller operations is decreasing, and crop diversity is declining. Meanwhile, federal agricultural policy is increasing in scope and influence. Through these data-driven insights, we argue that incremental and transformative pathways of change are needed to support alternative production practices, incentivize diversified landscapes, and promote innovation toward more sustainable agricultural systems across multiple scales.
 
 # author_notes:
 # - Equal contribution
