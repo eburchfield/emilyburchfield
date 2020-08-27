@@ -9,7 +9,7 @@ authors:
 - admin
 - Britta Schumacher
 
-#date: "2019-09-01T00:00:00Z"
+date: "2020-08-27T00:00:00Z"
 doi: ""
 featured: false
 image:
@@ -26,6 +26,8 @@ publishDate: "2020-07-21T00:00:00Z"
 # summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus
 #   ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
 tags:
+- Sustainable Agriculture
+- US Agricultural Policy
 title: Past and Current Dynamics of U.S. Agricultural Land Use and Policy
 url_code: ""
 url_dataset: ""
