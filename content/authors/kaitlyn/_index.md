@@ -30,7 +30,7 @@ role: PhD student, Environment and Society
 superuser: false
 title: Kaltiyn Spangler
 user_groups:
-#- "Graduate Students"
+- "Graduate Students"
 
 ---
 

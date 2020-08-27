@@ -30,7 +30,7 @@ role: BS, Environmental Sciences
 superuser: false
 title: Emily Isaac
 user_groups:
-#- "Undergraduate Students"
+- "Undergraduate Students"
 
 ---
 

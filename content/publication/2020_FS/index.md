@@ -5,9 +5,9 @@ abstract: Over the past century, agricultural land use in the United States has 
 # - Equal contribution
 # - Equal contribution
 authors:
-- kaitlyn
+- Kaitlyn Spangler
 - admin
-- britta
+- Britta Schumacher
 #date: "2019-09-01T00:00:00Z"
 doi: ""
 featured: false
@@ -25,8 +25,6 @@ publishDate: "2020-07-21T00:00:00Z"
 # summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus
 #   ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
 tags:
-- Agricultural Policy
-- Sustainable Agriculture
 title: Past and Current Dynamics of U.S. Agricultural Land Use and Policy
 url_code: ""
 url_dataset: ""
