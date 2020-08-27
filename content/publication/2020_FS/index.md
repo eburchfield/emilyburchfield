@@ -28,7 +28,7 @@ publishDate: "2020-07-07T00:00:00Z"
 tags:
 - Yield
 - Sustainable Agriculture
-- Corn
+- US Agricultural Policy
 title: Past and current dynamics of US agricultural land use and policy
 url_code: ""
 url_dataset: ""
