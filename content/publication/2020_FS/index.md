@@ -1,5 +1,5 @@
 ---
-abstract: Over the past century, agricultural land use in the United States has seen drastic shifts to support increasing demand for food and commodities; in many regions, this has resulted in highly simplified agricultural landscapes. Surmounting evidence exhibits the negative impacts of this simplification on the long-term provisioning of necessary ecosystem services to and from agriculture. However, transitions toward alternative systems often occur at a small scale, rather than at a systemic level. Within the National Research Council's (NRC) sustainable agricultural systems framework, we utilize national open-source datasets spanning several decades to broadly assess past and current agricultural landscapes across the U.S. We integrate and analyze agricultural land use and land cover data with policy data to address two main objectives: (1) Document and visualize changes over recent decades in cropland conversion, agricultural productivity, and crop composition across the U.S.; and (2) identify broad policy changes of the U.S. Farm Bills from 1933 to 2018 associated with these land use trends. We show that U.S. agriculture has gradually trended toward an intensely regulated and specialized system. Crop production is heavily concentrated in certain areas, larger farms are getting larger, while the number of smaller operations is decreasing, and crop diversity is declining. Meanwhile, federal agricultural policy is increasing in scope and influence. Through these data-driven insights, we argue that incremental and transformative pathways of change are needed to support alternative production practices, incentivize diversified landscapes, and promote innovation toward more sustainable agricultural systems across multiple scales.
+abstract: We adopt an approach known as bright spots analysis to identify U.S. regions with surprisingly high corn yields given regional expectations, seasonal weather, and soil characteristics. These counties are regional "surprises" that, by definition, achieve unexpectedly high levels of agricultural productivity. We then use multinomial logistic regression to identify the actionable factors-or the factors over which agricultural stakeholders can exert a certain level of control-that most strongly predict whether a county is a bright spot. We find that farmers in surprisingly productive regions spend an average of $17.6 more per acre on fertilizer, $12.4 more per acre on labor, irrigate 12% more of operated land, and receive $6.6 more per acre from government programs than those cultivating in less productive regions. We conclude by questioning whether and to what extent these attributes of productive regions can be managed for a sustainable future.  You can read the full paper [here](https://iopscience.iop.org/article/10.1088/1748-9326/aba5b4).
 
 # author_notes:
 # - Equal contribution
@@ -8,7 +8,7 @@ authors:
 - admin
 - Britta Schumacher
 
-date: "2020-08-27T00:00:00Z"
+date: "2020-07-15T00:00:00Z"
 doi: ""
 featured: true
 image:
@@ -16,18 +16,19 @@ image:
   focal_point: ""
   preview_only: false
 projects: ["Diversity"]
-publication: '*Frontiers in Sustainable Food Systems*'
+publication: '*Environmental Research Letters*'
 # publication_short: ""
 publication_types:
 - "2"
-publishDate: "2020-08-27T00:00:00Z"
+publishDate: "2020-07-07T00:00:00Z"
 # slides: example
 # summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus
 #   ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
 tags:
+- Yield
 - Sustainable Agriculture
-- Agricultural Policy
-title: Past and Current Dynamics of U.S. Agricultural Land Use and Policy
+- Corn
+title: Past and current dynamics of US agricultural land use and policy
 url_code: ""
 url_dataset: ""
 url_pdf: /files/2020_Spangler.pdf
