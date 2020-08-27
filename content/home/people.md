@@ -2,6 +2,9 @@
 # A "Meet the Team" section created with the People widget.
 # This section displays people from `content/authors/` which belong to the `user_groups` below.
 
+{{ $show_role := $page.Params.design.show_role | default true }}
+{{ if $show_role }}{{ with .Params.role }}<h3>{{ . | markdownify | emojify }}</h3>{{ end }}{{ end }}
+
 widget = "people"  # See https://sourcethemes.com/academic/docs/page-builder/
 headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
@@ -26,6 +29,8 @@ subtitle = ""
 
   # Show user's interests? (true/false)
   show_interests = false
+  
+  show_role = true
 
 [design.background]
   # Apply a background color, gradient, or image.
