@@ -3,7 +3,7 @@
 # This section displays people from `content/authors/` which belong to the `user_groups` below.
 
 {{ $show_role := $page.Params.design.show_role | default true }}
-{{ if $show_role }}{{ with .Params.role }}<h3>{{ . | markdownify | emojify }}</h3>{{ end }}{{ end }}
+  {{ if $show_role }}{{ with .Params.role }}<h3>{{ . | markdownify | emojify }}</h3>{{ end }}{{ end }}
 
 widget = "people"  # See https://sourcethemes.com/academic/docs/page-builder/
 headless = true  # This file represents a page section.
