@@ -11,7 +11,7 @@ authors:
 - Christopher Lant
 #date: "2019-09-01T00:00:00Z"
 doi: ""
-featured: true
+featured: false
 image:
   caption: 'Figure from paper'
   focal_point: ""
