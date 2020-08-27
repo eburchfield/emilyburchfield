@@ -5,9 +5,9 @@ abstract: Over the past century, agricultural land use in the United States has 
 # - Equal contribution
 # - Equal contribution
 authors:
-- Kaitlyn Spangler
+- kaitlyn
 - admin
-- Britta Schumacher
+- britta
 #date: "2019-09-01T00:00:00Z"
 doi: ""
 featured: false
