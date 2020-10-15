@@ -27,5 +27,5 @@ Prior experience in GIS, programming, and statistics is strongly recommended.
 
 ## **Postdocs and Visitors**
 
-We are recruiting 1-2 postdocs to start in 2021.  More coming soon!
+Our lab is looking for a Postdoctoral Research Associate focused on agricultural diversification. The Postdoctoral Research Associate will join an interdisciplinary and trans-institutional project integrating big geospatial data with qualitative data to model and understand the interactions between climate, land use, and agroecological outcomes. This individual will assist with survey design, conduct key informant interviews, and moderate focus groups exploring the barriers and bridges to the diversification of agricultural landscapes.  Interested?  Learn more and apply [here](https://faculty-emory.icims.com/jobs/58096/job?mobile=false&width=1140&height=500&bga=true&needsRedirect=false&jan1offset=-300&jun1offset=-240).
 
