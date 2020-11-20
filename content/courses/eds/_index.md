@@ -16,4 +16,34 @@ tags: ["data science", "courses", "R", "tidyverse", "geospatial analysis"]
 
 ---
 
-This course will be taught for the first time in Fall 2020.  More resources and information coming soon!
+## Background
+
+This course was taught at Emory University in 2020 (a great year!). Below, you'll find links to the tutorials we covered in the class.  
+
+## Content
+
+Most of the programming material for this course has been collapsed into RMarkdown documents I call "programming tutorials".  Below, you'll find links to all of the tutorials we covered in this course:
+
+* [Introduction to `R`](Introduction_to_R.html)
+* [File management tips](File_management.html)
+* [Introduction to `dplyr`](Introduction_to_dplyr.html)
+* [Introduction to `ggplot`](Introduction_to_ggplot.html)
+* [Descriptive statistics in `R`](Descriptive_statistics.html)
+* [Correlation (it ain't causation)](Correlation.html)
+* [Working with spatial data in `R` using `sf`](Introduction_to_spatial_data.html)
+* [Projection, what is it, how does it work in `R`?](Projection.html)
+* [Making maps in `R`!](Making_maps_in_R.html)
+* [Rasters in `R`](Rasters_in_R.html)
+* [Linear regression](Linear_regression.html)
+* [Predictve modeling with random forests](Predictive_modeling.html)
+* [Fancy-pants-advanced-R](Advanced_R_LAB.html)
+
+## Memes
+
+Students are encouraged to submit programming/stats memes for extra credit. Here's the best of 2020:
+
+*Coming sooooon!*
+
+
+
+
