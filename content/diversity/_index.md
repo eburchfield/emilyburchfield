@@ -1,9 +1,17 @@
 ---
+header:
+  caption: ""
+  image: ""
+    caption: Artwork by the amazing Lois Chang.</a>
+    focal_point: Smart
+layout: docs
+title: Courses
+---
 #date: "2020-12-04T00:00:00Z"
 #external_link: ""
-image:
-  caption: Artwork by the amazing Lois Chang.</a> 
-  focal_point: Smart
+# image:
+#   caption: Artwork by the amazing Lois Chang.</a> 
+#   focal_point: Smart
 # links:
 # - icon: twitter
 #   icon_pack: fab
@@ -22,5 +30,5 @@ image:
 # url_pdf: ""
 # url_slides: ""
 # url_video: ""
----
+#---
 
