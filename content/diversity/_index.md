@@ -1,8 +1,8 @@
 ---
 #date: "2020-12-04T00:00:00Z"
-external_link: ""
+#external_link: ""
 image:
-  caption: Artwork by <a the amazing Lois Chang.</a> 
+  caption: Artwork by the amazing Lois Chang.</a> 
   focal_point: Smart
 # links:
 # - icon: twitter
@@ -10,17 +10,17 @@ image:
 #   name: Follow
 #   url: https://twitter.com/georgecushen
 # slides: example
-summary: 
+#summary: 
 # tags:
 # - Agricultural diversiy
 # - USDA
 # - Yield
 # - Agroecology
 # - CDL
-title: 
-url_code: ""
-url_pdf: ""
-url_slides: ""
-url_video: ""
+# title: 
+# url_code: ""
+# url_pdf: ""
+# url_slides: ""
+# url_video: ""
 ---
 
