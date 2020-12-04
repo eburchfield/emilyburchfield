@@ -29,6 +29,12 @@
   weight = 60
   
 [[main]]
+  name = "Diversity"
+  url = "diversity/"
+  weight = 60
+  
+  
+[[main]]
   name = "Join us"
   url = "prospective/"
   weight = 60
