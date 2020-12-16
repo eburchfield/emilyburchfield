@@ -35,5 +35,5 @@ user_groups:
 ---
 
 Sofia is an undergraduate senior studying Economics and Environmental Science with a minor in Italian studies. With a passion for data analysis and understanding anthropogenic factors relating to environmental and public health, she joined the lab to broaden her knowledge of land-use change, primarily in the agricultural sphere, and to sharpen data science tools for further application. 
-e.  
+
  
