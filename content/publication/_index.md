@@ -8,7 +8,7 @@ title: Publications
 
 ## 2021
 
-* **Burchfield, E.**, Nelson, K. (2021) [Agricultural yield geographies in the United States](/publication/2020_GA) _Environmental Research Letters_. In press.
+* **Burchfield, E.**, Nelson, K. (2021) [Agricultural yield geographies in the United States.](/publication/2021_GA) _Environmental Research Letters_. In press.
 
 ## 2020
 
