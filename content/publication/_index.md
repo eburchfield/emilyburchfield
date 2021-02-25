@@ -6,6 +6,10 @@ layout: docs
 title: Publications
 ---
 
+## 2021
+
+* **Burchfield, E.**, Nelson, K. (2021) [Agricultural yield geographies in the United States](/publication/2020_GA) _Environmental Research Letters_. In press.
+
 ## 2020
 
 * **Burchfield, E.**, Schumacher, B. (2020) [Bright spots in US corn production.](/publication/2020_BS) _Environmental Research Letters_. _15_(10). [https://doi.org/10.1088/1748-9326/aba5b4](https://doi.org/10.1088/1748-9326/aba5b4)
