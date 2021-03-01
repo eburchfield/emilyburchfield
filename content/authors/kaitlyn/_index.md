@@ -16,7 +16,7 @@ email: "kaitlyn.spangler@aggiemail.usu.edu"
 organizations:
 - name: Utah State University
   url: ""
-role: PhD student, Environment and Society
+role: PhD, Environment and Society
 # social:
 # - icon: envelope
 #   icon_pack: fas

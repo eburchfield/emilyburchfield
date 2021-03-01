@@ -16,7 +16,7 @@ email: "britta.schumacher@aggiemail.usu.edu"
 organizations:
 - name: Utah State University
   url: ""
-role: MS student, Ecology
+role: MS, Ecology
 # social:
 # - icon: envelope
 #   icon_pack: fas
