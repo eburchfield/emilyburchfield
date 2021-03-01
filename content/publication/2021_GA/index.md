@@ -29,7 +29,7 @@ tags:
 - Sustainable Agriculture
 
 title: Agricultural yield geographies in the United States 
-url_code: ""
+url_code: "https://github.com/eburchfield/US_production_geographies"
 url_dataset: ""
 url_pdf: /files/Burchfield_GA_preprint.pdf
 url_poster: ""
