@@ -15,7 +15,7 @@ image:
   caption: 'Figure from paper'
   focal_point: ""
   preview_only: false
-projects: [""]
+projects: ["Diversity"]
 publication: '*Environmental Research Letters*'
 # publication_short: ""
 publication_types:
