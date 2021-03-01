@@ -30,7 +30,7 @@ role: BS, Environmental Sciences
 superuser: false
 title: Maggie Layer
 user_groups:
-- "Undergraduate Students"
+- "Lab Members"
 
 ---
 

@@ -30,7 +30,7 @@ role: BA, Economics
 superuser: false
 title: Sofia Benzi
 user_groups:
-- "Undergraduate Students"
+- "Lab Members"
 
 ---
 

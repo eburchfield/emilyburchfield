@@ -30,7 +30,7 @@ role: MS student, Environmental Sciences
 superuser: false
 title: Jared Gingrich
 user_groups:
-- "Graduate Students"
+- "Lab Members"
 
 ---
 
