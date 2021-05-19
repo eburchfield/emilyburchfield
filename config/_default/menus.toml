@@ -23,25 +23,25 @@
   url = "courses/"
   weight = 50
 
-#[[main]]
- # name = "Blog"
- # url = "blog/"
-#  weight = 60
+[[main]]
+  name = "How to R"
+  url = "book/"
+  weight = 60
   
 [[main]]
   name = "Diversity"
   url = "diversity/"
-  weight = 60
+  weight = 70
   
   
 [[main]]
   name = "Join us"
   url = "prospective/"
-  weight = 60
+  weight = 80
 
 [[main]]
   name = "Contact"
   url = "#contact"
-  weight = 70
+  weight = 90
 
 
