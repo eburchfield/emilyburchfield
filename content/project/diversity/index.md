@@ -32,6 +32,9 @@ This project is funded by USDA NIFA ([Grant 2020-67019-31157](https://cris.nifa.
 
 ## Publications
 
+* Nelson, K., **Burchfield, E.** (2021) [Landscape complexity and US crop production.](/publication/2021_NF) _Nature Food_. 
+[https://doi.org/10.1038/s43016-021-00281-1](https://doi.org/10.1038/s43016-021-00281-1)
+* **Burchfield, E.**, Nelson, K. (2021) [Agricultural yield geographies in the United States.](/publication/2021_GA) _Environmental Research Letters_. [https://doi.org/10.1088/1748-9326/abe88d](https://doi.org/10.1088/1748-9326/abe88d)
 * Spangler, K., **Burchfield, E.**, Schumacher, B. (2019) Past and current dynamics of US agricultural land use and policy. In press at _Frontiers in Sustainable Food Systems._ 
 * **Burchfield, E.**, Nelson, K., Spangler, K. (2019).  The impact of agricultural diversification on U.S. crop production. _Agriculture, Ecosystems & Environment._ _285_ 106615. [https://doi.org/10.1016/j.agee.2019.106615](https://doi.org/10.1016/j.agee.2019.106615).  Preprint available[here](/files/Burchfield_SDI_preprint.pdf)
 
