@@ -8,7 +8,7 @@ title: Publications
 
 ## 2021
 
-* Nelson, K., **Burchfield, E.** (2021) [Landscape complexity and US crop production](/publicatoin/2021_NF) _Nature Food_. 
+* Nelson, K., **Burchfield, E.** (2021) [Landscape complexity and US crop production.](/publicatoin/2021_NF) _Nature Food_. 
 [https://doi.org/10.1038/s43016-021-00281-1](https://doi.org/10.1038/s43016-021-00281-1)
 * **Burchfield, E.**, Nelson, K. (2021) [Agricultural yield geographies in the United States.](/publication/2021_GA) _Environmental Research Letters_. [https://doi.org/10.1088/1748-9326/abe88d](https://doi.org/10.1088/1748-9326/abe88d)
 
