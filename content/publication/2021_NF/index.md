@@ -1,14 +1,14 @@
 ---
-abstract: We examine the geographies of agricultural yields in the United States, home to some of the most productive agricultural systems on the planet. We model and map yield divergence from biophysical expectations and regional norms for five major crops-corn, soy, wheat, alfalfa, and hay-and assess how this divergence interacts with farm-level resources, farm(er) characteristics, and landscape context. Our results highlight the ways in which human activity has reinforced and intensified the yield geographies defined by sun, soil, and water alone. Yield gains brought by human activity are strongly associated with increased expenditure on inputs to production and receipts from federal programs, but not with net revenue gains for farmers. These yield gains vary across operator race, gender, farm size, and major U.S. region. We also find that beyond a threshold, increased input expenditure is associated with marginally decreasing yields, raising important questions about the interactions between yields and farmer livelihoods. We conclude by discussing the importance of broadening the production-centric paradigm that has dominated agricultural innovation over the last century to include the well-being of the farmers and ecological systems on which agricultural production ultimately depends.
+abstract: Agricultural expansion and intensification have simplified Earth's landscapes, thereby adversely affecting the biodiversity and ecosystem services that support agricultural production. Field-scale research suggests that increased landcover complexity can improve crop productivity, but less is known about how complexity and crop productivity interact at broader landscape scales. This study evaluates the relationship between landscape complexity and crop yields for counties in the conterminous United States from 2008 to 2018. Our results suggest that the number and quantity of landcover categories on a landscape has a stronger influence on yields than how these landcover categories are arranged on the landscape. Specifically, increased landcover diversity is associated with yield increases for corn and wheat of more than 10%-an effect strength similar to the impact of seasonal precipitation and soil suitability. Notably, landscape configurations that are both moderately complex and also highly diverse are associated with yield increases of more than 20% for corn and wheat. Our findings suggest that increasing the complexity of landcover may provide a way to improve crop productivity in the United States without further extensification or intensification of agriculture.
 
 # author_notes:
 # - Equal contribution
 # - Equal contribution
 authors:
-- admin
 - Kate Nelson
+- admin
 
-date: "2021-01-15T00:00:00Z"
+date: "2021-05-21T00:00:00Z"
 doi: ""
 featured: true
 image:
@@ -16,22 +16,23 @@ image:
   focal_point: ""
   preview_only: false
 projects: ["Diversity"]
-publication: '*Environmental Research Letters*'
+publication: '*Nature Food*'
 # publication_short: ""
 publication_types:
 - "2"
-publishDate: "2021-01-07T00:00:00Z"
+publishDate: "2021-05-21T00:00:00Z"
 # slides: example
 # summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus
 #   ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
 tags:
 - Yield
 - Sustainable Agriculture
+- Diverse Landscapes
 
-title: Agricultural yield geographies in the United States 
-url_code: "https://github.com/eburchfield/US_production_geographies"
+title: Landscape complexity and US crop production
+url_code: "https://github.com/katesnelson/aglandscapes-what-or-how"
 url_dataset: ""
-url_pdf: /files/Burchfield_GA_preprint.pdf
+url_pdf: https://www.nature.com/articles/s43016-021-00281-1
 url_poster: ""
 url_project: ""
 url_slides: ""
