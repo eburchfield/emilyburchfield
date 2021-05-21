@@ -8,12 +8,14 @@ title: Publications
 
 ## 2021
 
-* **Burchfield, E.**, Nelson, K. (2021) [Agricultural yield geographies in the United States.](/publication/2021_GA) _Environmental Research Letters_. In press.
+* Nelson, K., **Burchfield, E.** (2021) [Landscape complexity and US crop production](/publicatoin/2021_NF) _Nature Food_. 
+[https://doi.org/10.1038/s43016-021-00281-1](https://doi.org/10.1038/s43016-021-00281-1)
+* **Burchfield, E.**, Nelson, K. (2021) [Agricultural yield geographies in the United States.](/publication/2021_GA) _Environmental Research Letters_. [https://doi.org/10.1088/1748-9326/abe88d](https://doi.org/10.1088/1748-9326/abe88d)
 
 ## 2020
 
 * **Burchfield, E.**, Schumacher, B. (2020) [Bright spots in US corn production.](/publication/2020_BS) _Environmental Research Letters_. _15_(10). [https://doi.org/10.1088/1748-9326/aba5b4](https://doi.org/10.1088/1748-9326/aba5b4)
-* Spangler, K., **Burchfield, E.**, Schumacher, B. (2019) [Past and current dynamics of US agricultural land use and policy.](/publication/2020_FS) _Frontiers in Sustainable Food Systems._ _4_(9) [https://doi.org/10.3389/fsufs.2020.00098](https://doi.org/10.3389/fsufs.2020.00098)
+* Spangler, K., **Burchfield, E.**, Schumacher, B. (2020) [Past and current dynamics of US agricultural land use and policy.](/publication/2020_FS) _Frontiers in Sustainable Food Systems._ _4_(9) [https://doi.org/10.3389/fsufs.2020.00098](https://doi.org/10.3389/fsufs.2020.00098)
 
 ## 2019
 

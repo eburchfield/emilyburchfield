@@ -31,7 +31,7 @@ tags:
 title: Agricultural yield geographies in the United States 
 url_code: "https://github.com/eburchfield/US_production_geographies"
 url_dataset: ""
-url_pdf: "https://iopscience.iop.org/article/10.1088/1748-9326/abe88d"
+url_pdf: /files/Burchfield_GA_preprint.pdf
 url_poster: ""
 url_project: ""
 url_slides: ""
