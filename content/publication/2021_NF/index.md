@@ -32,7 +32,7 @@ tags:
 title: Landscape complexity and US crop production
 url_code: "https://github.com/katesnelson/aglandscapes-what-or-how"
 url_dataset: ""
-url_pdf: https://www.nature.com/articles/s43016-021-00281-1
+url_pdf: https://rdcu.be/ckZGu
 url_poster: ""
 url_project: ""
 url_slides: ""
