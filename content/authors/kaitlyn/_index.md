@@ -28,7 +28,7 @@ role: PhD, Environment and Society
 #   icon_pack: fab
 #   link: https://github.com/eburchfield
 superuser: false
-title: Kaltiyn Spangler
+title: Kaitlyn Spangler
 user_groups:
 - "Lab Members"
 
