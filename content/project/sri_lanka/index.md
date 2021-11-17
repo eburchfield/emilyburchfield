@@ -17,7 +17,7 @@ tags:
 - Agroecology
 - Drought
 - Climate Change
-title: Smallholder Agricultural Resilience
+title: Smallholder Resilience
 url_code: ""
 url_pdf: ""
 url_slides: ""
