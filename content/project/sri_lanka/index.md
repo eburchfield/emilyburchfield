@@ -10,14 +10,14 @@ image:
 #   name: Follow
 #   url: https://twitter.com/georgecushen
 # slides: example
-summary: Smallholder agricultural resilience in Sri Lanka.
+summary: What strategies do smallholder farmers use to address climate uncertainty?
 tags:
 - Sri Lanka
 - Irrigation
 - Agroecology
 - Drought
 - Climate Change
-title: Smallholder Resilience
+title: Agricultural Resilience
 url_code: ""
 url_pdf: ""
 url_slides: ""
