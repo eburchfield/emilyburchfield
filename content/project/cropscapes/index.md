@@ -10,7 +10,7 @@ image:
 #   name: Follow
 #   url: https://twitter.com/georgecushen
 # slides: example
-summary: What will agricultural landscapes look like in the future?
+summary: How will agricultural systems need to transform to respond to new climate realities?
 tags:
 - Future yield
 - USDA
@@ -18,14 +18,14 @@ tags:
 - Adaptation
 - CDL
 - Projection
-title: Future Cropscapes
+title: Climate Adaptation
 url_code: ""
 url_pdf: ""
 url_slides: ""
 url_video: ""
 ---
 
-Future changes in climate will significantly transform US agriculture both through changes in _production_ and the _production geography_ of many crops.Through iterative participatory modeling, this project will generate productions of future production geographies of major crops cultivated in the Central and Eastern US under multiple stakeholder-generated scenarios of climatic and sociotechnical change. 
+Future changes in climate will significantly transform US agriculture. Through iterative participatory modeling, this project will co-produce projections of future production geographies of major crops cultivated in the Central and Eastern US under multiple stakeholder-generated scenarios of climatic and socio-technical change. 
 
 ## Publications
 
