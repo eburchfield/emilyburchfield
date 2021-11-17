@@ -29,8 +29,7 @@ role: BS, Environmental Sciences
 #   link: https://github.com/eburchfield
 superuser: false
 title: Emily Isaac
-user_groups:
-- "Lab Members"
+user_groups: [""]
 
 ---
 

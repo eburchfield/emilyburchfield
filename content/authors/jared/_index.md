@@ -29,8 +29,7 @@ role: MS, Environmental Sciences
 #   link: https://github.com/eburchfield
 superuser: false
 title: Jared Gingrich
-user_groups:
-- "Lab Members"
+user_groups: [""]
 
 ---
 

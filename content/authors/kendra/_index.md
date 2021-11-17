@@ -29,8 +29,7 @@ role: BS, ENVS
 #   link: https://github.com/eburchfield
 superuser: false
 title: Kendra Ding
-user_groups:
-- "Lab Members"
+user_groups: [""]
 
 ---
 

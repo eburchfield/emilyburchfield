@@ -29,8 +29,7 @@ role: Postdoctoral Researcher
 #   link: https://github.com/eburchfield
 superuser: false
 title: Andrea Rissing
-user_groups:
-- "Lab Members"
+user_groups: [""]
 
 ---
 
