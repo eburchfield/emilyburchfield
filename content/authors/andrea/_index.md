@@ -28,7 +28,7 @@ role: Postdoctoral Researcher
 #   icon_pack: fab
 #   link: https://github.com/eburchfield
 superuser: false
-title: Andrea Rissing
+title: Dr. Andrea Rissing
 user_groups: [""]
 
 ---
