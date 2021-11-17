@@ -17,7 +17,7 @@ tags:
 - Agroecology
 - Drought
 - Climate Change
-title: Agricultural Resilience
+title: Climate Resilience
 url_code: ""
 url_pdf: ""
 url_slides: ""
