@@ -16,7 +16,7 @@ email: "jiongchao.ding@emory.edu"
 organizations:
 - name: Emory University
   url: ""
-role: BS, ENVS
+role: BS, Environmental Sciences
 # social:
 # - icon: envelope
 #   icon_pack: fas

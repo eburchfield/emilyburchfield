@@ -10,14 +10,14 @@ image:
 #   name: Follow
 #   url: https://twitter.com/georgecushen
 # slides: example
-summary: Agricultural adaptation to changing climate in rural Sri Lanka.
+summary: Smallholder agricultural resilience in Sri Lanka.
 tags:
 - Sri Lanka
 - Irrigation
 - Agroecology
 - Drought
 - Climate Change
-title: Smallholder Adaptation to Drought
+title: Smallholder Agricultural Resilience
 url_code: ""
 url_pdf: ""
 url_slides: ""
