@@ -6,7 +6,7 @@ abstract: We examine the geographies of agricultural yields in the United States
 # - Equal contribution
 authors:
 - admin
-- Kate Nelson
+- Dr. Kate Nelson
 
 date: "2021-01-15T00:00:00Z"
 doi: ""

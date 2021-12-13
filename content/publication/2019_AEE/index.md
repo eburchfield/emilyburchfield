@@ -5,7 +5,7 @@ abstract: This research uses hierarchical Bayesian models to estimate the relati
 # - Equal contribution
 authors:
 - admin
-- Kate Nelson
+- Dr. Kate Nelson
 - Kaitlyn Spangler
 date: "2019-09-01T00:00:00Z"
 doi: ""

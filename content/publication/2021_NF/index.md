@@ -5,7 +5,7 @@ abstract: Agricultural expansion and intensification have simplified Earth's lan
 # - Equal contribution
 # - Equal contribution
 authors:
-- Kate Nelson
+- Dr. Kate Nelson
 - admin
 
 date: "2021-05-21T00:00:00Z"

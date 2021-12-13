@@ -7,8 +7,8 @@ abstract: This paper projects the race between technologically driven increases 
 authors:
 - admin
 - Neil Matthews-Pennanen
-- Justin Schoof
-- Christopher Lant
+- Dr. Justin Schoof
+- Dr. Christopher Lant
 #date: "2019-09-01T00:00:00Z"
 doi: ""
 featured: false
