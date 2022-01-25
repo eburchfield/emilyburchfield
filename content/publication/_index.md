@@ -6,6 +6,12 @@ layout: docs
 title: Publications
 ---
 
+## 2022
+
+* **Burchfield, E.**, Schumacher, B., Spangler, K., Rissing, A. (2022). The state of US farm operator livelihoods. \textit{In press} at \textit{Frontiers in Sustainable Food Systems}}. 
+* Nottebrock, H., **Burchfield, E.**, Fenster, C. (2022). [Farmers' delivery of floral resources: to 'bee' or not to 'bee.'](https://bsapubs.onlinelibrary.wiley.com/doi/full/10.1002/ajb2.1809) _American Journal of Botany_. [https://doi.org/10.1002/ajb2.1809](https://doi.org/10.1002/ajb2.1809)
+* Schumacher, B., Yost, M., **Burchfield, E.**, Allen, N. (2022). [Water in the West: trends, production efficiency, and a call for open data.](https://www.sciencedirect.com/science/article/pii/S0301479721023926) _Journal of Environmental Management_. [https://doi.org/10.1016/j.jenvman.2021.114330](https://doi.org/10.1016/j.jenvman.2021.114330)
+	
 ## 2021
 
 * Nelson, K., **Burchfield, E.** (2021) [Landscape complexity and US crop production.](/publication/2021_NF) _Nature Food_. 
