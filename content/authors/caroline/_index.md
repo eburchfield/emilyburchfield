@@ -12,7 +12,7 @@ bio:
 #   - course: BS in Economics 
 #     institution: Clemson University
 #     year: 2010
-email: "caroline.kei.maki@emory.edu""
+email: "caroline.kei.maki@emory.edu"
 organizations:
 - name: Emory University
   url: ""
