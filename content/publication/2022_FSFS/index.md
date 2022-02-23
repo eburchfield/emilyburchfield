@@ -17,7 +17,7 @@ image:
   caption: 'Realized net income of farmers in (A.) 1969 (adjusted to 2019 dollars) and (B.) 2019.'
   focal_point: ""
   preview_only: false
-projects: ["Diversity"]
+projects: 
 publication: '*Frontiers in Sustainable Food Systems*'
 # publication_short: ""
 publication_types:
