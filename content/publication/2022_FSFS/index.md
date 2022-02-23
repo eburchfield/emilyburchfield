@@ -1,5 +1,5 @@
 ---
-abstract: In nine of the last 10 years, the United States Department of Agriculture (USDA) has reported that the average funds generated on-farm for farm operators to meet living expenses and debt obligations have been negative. This paper pieces together disparate data to understand why farm operators in the most productive agricultural systems on the planet are systematically losing money. The data-driven narrative we present highlights some troubling trends in US farm operator livelihoods. Though US farms are more productive than ever before, rising input costs, volatile production values, and rising land rents have left farmers with unprecedented levels of farm debt, low on-farm incomes, and high reliance on federal programs. For many US farm operators, the indicators of a "good livelihood"-stability, security, equitable rewards for work-are largely absent. We conclude by proposing three axes of intervention that would help US agriculture better sustain all farmers' livelihoods, a crucial step toward improving overall agricultural sustainability: (1) increase the diversity of people, crops, and cropping systems, (2) improve equity in access to land, support, and capital, and (3) improve the quality, accessibility, and content of data to facilitate monitoring of multiple indicators of agricultural "success."
+abstract: In nine of the last 10 years, the United States Department of Agriculture (USDA) has reported that the average funds generated on-farm for farm operators to meet living expenses and debt obligations have been negative. This paper pieces together disparate data to understand why farm operators in the most productive agricultural systems on the planet are systematically losing money. The data-driven narrative we present highlights some troubling trends in US farm operator livelihoods. Though US farms are more productive than ever before, rising input costs, volatile production values, and rising land rents have left farmers with unprecedented levels of farm debt, low on-farm incomes, and high reliance on federal programs. For many US farm operators, the indicators of a "good livelihood"-stability, security, equitable rewards for work-are largely absent. 
 
 # author_notes:
 # - Equal contribution
@@ -22,7 +22,7 @@ publication: '*Frontiers in Sustainable Food Systems*'
 # publication_short: ""
 publication_types:
 - "2"
-publishDate: "2021-05-21T00:00:00Z"
+publishDate: "2022-02-21T00:00:00Z"
 # slides: example
 # summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus
 #   ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
