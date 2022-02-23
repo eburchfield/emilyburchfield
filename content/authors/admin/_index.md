@@ -1,17 +1,17 @@
 ---
 authors:
 bio:  
-# education:
-#   courses:
-#   - course: PhD in Environmental Engineering
-#     institution: Vanderbilt University
-#     year: 2017
-#   - course: MA in Economics
-#     institution: University of Louvain, Belgium
-#     year: 2012
-#   - course: BS in Economics 
-#     institution: Clemson University
-#     year: 2010
+education:
+  courses:
+  - course: PhD in Environmental Engineering
+    institution: Vanderbilt University
+    year: 2017
+  - course: MA in Economics
+    institution: University of Louvain, Belgium
+    year: 2012
+  - course: BS in Economics
+    institution: Clemson University
+    year: 2010
 email: "emily.burchfield@emory.edu"
 organizations:
 - name: Emory University
@@ -33,4 +33,5 @@ user_groups: [""]
 
 ---
 
-Dr. Burchfield is an Assistant Professor in the [Department of Environmental Sciences](http://envs.emory.edu/home/) at Emory University.  Her research integrates social and environmental data to understand the distributional consequences of climate change on humans and the environment. She relies heavily on geospatial programming and analysis, but also integrates survey and qualitative data. Her current research is focused on agricultural sustainability in the United States and the role of diversification in agricultural production. You can download her CV [here](Burchfield_CV.pdf).  
+Dr. Burchfield is an Assistant Professor in the [Department of Environmental Sciences](http://envs.emory.edu/home/) at Emory University. Her work integrates social and environmental data to support transitions towards more sustainable, resilient, and just agricultural futures. Ongoing projects include (1) modeling the impact of shifting land use on agroecological outcomes, (2) projecting shifts in U.S. cultivation geographies driven by climate change, (3) determining the shared characteristics of productive and resilient agricultural systems, and (4) identifying the multiscalar drivers of farm-level cultivation and conservation behavior. This interdisciplinary research integrates "big" geospatial data with "deep" qualitative and survey data to understand and support agricultural system transition at multiple scales. You can download her CV [here](Burchfield_CV.pdf).
+
