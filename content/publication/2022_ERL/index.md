@@ -1,5 +1,5 @@
 ---
-abstract: Climate change is projected to transform agricultural systems around the globe.
+abstract: Climate change is projected to transform agricultural systems around the globe. Though climate strongly influences where and how farmers cultivate, millenia of agricultural innovation have expanded cultivation geographies far beyond what sun, soil, and water alone can support. Evaluating how climate interacts with human activity to shape cultivation possibilities for farmers is vital to understanding the impacts of climate change on agriculture. In this paper, I assess how climate interacts with agricultural activity to shape the cultivation geographies of six major U.S. crops. I find that though biophysical conditions strongly shape cultivation geographies, agricultural activity (particualarly crop insurance and input use) expand and amplify the cultivation geographies of these major crops, often into regions biophysically unsuited to their cultivation.
 
 # author_notes:
 # - Equal contribution
