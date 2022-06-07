@@ -11,8 +11,7 @@ date: "2022-05-21T00:00:00Z"
 doi: ""
 featured: true
 image:
-  caption: '(A) Biophysical and (B) agricultural suitability estimates for the Central and Eastern U.S. (C) The difference between the agricultural and        
-  biophysical suitability shows the amplification of biophysical suitability brought by agricultural activity.'
+  caption: ""
   focal_point: ""
   preview_only: false
 projects: 
