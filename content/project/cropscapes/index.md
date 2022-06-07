@@ -30,3 +30,4 @@ Future changes in climate will significantly transform US agriculture. Through i
 ## Publications
 
 * **Burchfield, E.**, Matthews-Pennanen, N., Stoebner, J., Lant, C. (2019).  Changing yields in the Central United States under climate and technological change. _Climatic Change_, _159_, 329-346. [https://doi.org/10.1007/s10584-019-02567-7](https://doi.org/10.1007/s10584-019-02567-7). Preprint available [here](/files/Burchfield_FY_preprint.pdf).
+* **Burchfield, E.** (2022). [Shifting cultivation geographies in the Central and Eastern US](https://iopscience.iop.org/article/10.1088/1748-9326/ac6c3d). _Environmental Research Letters_. 17, 054049. [https://doi.org/10.1088/1748-9326/ac6c3d](https://doi.org/10.1088/1748-9326/ac6c3d)
