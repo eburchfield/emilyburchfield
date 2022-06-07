@@ -1,5 +1,5 @@
 ---
-abstract: 
+abstract: Climate change is projected to transform agricultural systems around the globe.
 
 # author_notes:
 # - Equal contribution
