@@ -1,5 +1,5 @@
 ---
-abstract: Climate change is projected to transform agricultural systems around the globe. Though climate strongly influences where and how farmers cultivate, millennia of agricultural innovation have expanded cultivation geographies far beyond what sun, soil, and water alone can support. Evaluating how climate interacts with human activity to shape cultivation possibilities for farmers is vital to understanding the impacts of climate change on agriculture. I assess how climate interacts with agricultural activity to shape the cultivation geographies of six major crops: corn, soy, wheat, cotton, hay and alfalfa. 
+abstract: 
 
 # author_notes:
 # - Equal contribution
