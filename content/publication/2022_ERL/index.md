@@ -1,37 +1,36 @@
 ---
-abstract: We adopt an approach known as bright spots analysis to identify U.S. regions with surprisingly high corn yields given regional expectations, seasonal weather, and soil characteristics. These counties are regional "surprises" that, by definition, achieve unexpectedly high levels of agricultural productivity. We then use multinomial logistic regression to identify the actionable factors-or the factors over which agricultural stakeholders can exert a certain level of control-that most strongly predict whether a county is a bright spot. We find that farmers in surprisingly productive regions spend an average of $17.6 more per acre on fertilizer, $12.4 more per acre on labor, irrigate 12% more of operated land, and receive $6.6 more per acre from government programs than those cultivating in less productive regions. We conclude by questioning whether and to what extent these attributes of productive regions can be managed for a sustainable future.  You can read the full paper [here](https://iopscience.iop.org/article/10.1088/1748-9326/aba5b4).
+abstract: Climate change is projected to transform agricultural systems around the globe. Though climate strongly influences where and how farmers cultivate, millennia of agricultural innovation have expanded cultivation geographies far beyond what sun, soil, and water alone can support. Evaluating how climate interacts with human activity to shape cultivation possibilities for farmers is vital to understanding the impacts of climate change on agriculture. I assess how climate interacts with agricultural activity to shape the cultivation geographies of six major crops: corn, soy, wheat, cotton, hay and alfalfa. For each crop, I model biophysical suitability, or the probability of a crop's occurrence given only biophysical conditions, and agricultural suitability, or the probability of a crops occurrence given biophysical conditions as well as agricultural inputs, farm resources, and farm characteristics. Though biophysical conditions strongly shape cultivation geographies, agricultural activity-particularly the use of crop insurance and agricultural inputs-amplifies and expands the cultivation geographies of these major crops, often into regions biophysically unsuited to their cultivation. I project biophysically driven shifts in cultivation geographies to 2100 under low, moderate, and high emissions scenarios and find that these geographies will shift strongly north, with the Corn Belt becoming unsuitable to the cultivation of corn by 2100. These results indicate that significant agricultural adaptation will be necessary and inevitable in the Central and Eastern U.S.
 
 # author_notes:
 # - Equal contribution
 # - Equal contribution
 authors:
 - admin
-- Britta Schumacher
 
-date: "2020-07-15T00:00:00Z"
+date: "2022-05-21T00:00:00Z"
 doi: ""
-featured: false
+featured: true
 image:
-  caption: 'Figure from paper'
+  caption: ""
   focal_point: ""
   preview_only: false
-projects: ["Diversity"]
+projects: 
 publication: '*Environmental Research Letters*'
 # publication_short: ""
 publication_types:
 - "2"
-publishDate: "2020-07-07T00:00:00Z"
+publishDate: "2022-05-21T00:00:00Z"
 # slides: example
 # summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus
 #   ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
 tags:
-- Yield
-- Sustainable Agriculture
-- Corn
-title: Bright spots in US corn production
-url_code: "https://github.com/eburchfield/Bright_spots"
+- Climate change
+- US agriculture
+
+title: Shifting cultivation geographies in the Central and Eastern US
+url_code: "https://github.com/eburchfield/future_cropscapes"
 url_dataset: ""
-url_pdf: /files/Burchfield_BS_preprint.pdf
+url_pdf: https://iopscience.iop.org/article/10.1088/1748-9326/ac6c3d
 url_poster: ""
 url_project: ""
 url_slides: ""
