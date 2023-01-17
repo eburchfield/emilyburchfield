@@ -8,9 +8,9 @@ title: Publications
 
 ## 2022
 
-* Burchfield, E. (2022). Where and how to grow food. _Nature Food_. [https://doi.org/10.1038/s43016022-00663-z](https://doi.org/10.1038/s43016022-00663-z)
+* **Burchfield, E.** (2022). Where and how to grow food. _Nature Food_. [https://doi.org/10.1038/s43016022-00663-z](https://doi.org/10.1038/s43016022-00663-z)
 22. 
-* Spangler, K., Burchfield, E., Radel, C., Jackson-Smith, D., Johnson, R. (2022). [Crop diversification in Idaho's Magic Valley: the present and the imaginary](https://link.springer.com/article/10.1007/s13593-022-00833-0). _Agronomy for Sustainable
+* Spangler, K., **Burchfield, E.**, Radel, C., Jackson-Smith, D., Johnson, R. (2022). [Crop diversification in Idaho's Magic Valley: the present and the imaginary](https://link.springer.com/article/10.1007/s13593-022-00833-0). _Agronomy for Sustainable
 Development_. 42 (99). [https://doi.org/10.1007/s13593-022-00833-0](https://doi.org/10.1007/s13593-022-00833-0.
 * **Burchfield, E.** (2022). [Shifting cultivation geographies in the Central and Eastern US](https://iopscience.iop.org/article/10.1088/1748-9326/ac6c3d). _Environmental Research Letters_. 17, 054049. [https://doi.org/10.1088/1748-9326/ac6c3d](https://doi.org/10.1088/1748-9326/ac6c3d)
 * Spangler, K., Schumacher, B., Bean, B., **Burchfield, E.** (2022). [Path dependencies in US agriculture: Regional factors of diversification.](https://www.sciencedirect.com/science/article/abs/pii/S0167880922001062) _Agriculture, Ecosystems and Environment_, 333, 107957. [https://doi.org/10.1016/j.agee.2022.107957](https://doi.org/10.1016/j.agee.2022.107957)
