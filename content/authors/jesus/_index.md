@@ -16,7 +16,7 @@ email: "jesus.palenzuela@emory.edu"
 organizations:
 - name: Emory University
   url: ""
-role: Undergraduate Researcher
+role: BS, Environmental Science and Economics
 # social:
 # - icon: envelope
 #   icon_pack: fas
