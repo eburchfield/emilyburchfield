@@ -38,12 +38,4 @@ Most of the programming material for this course has been collapsed into RMarkdo
 * [Predictve modeling with random forests](Predictive_modeling.html)
 * [Fancy-pants-advanced-R](Advanced_R_LAB.html)
 
-## Memes
-
-Students are encouraged to submit programming/stats memes for extra credit. Here's the best of 2020:
-
-*Coming sooooon!*
-
-
-
 
