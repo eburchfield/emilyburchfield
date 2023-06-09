@@ -2,7 +2,7 @@
 date: "2019-06-27T00:00:00Z"
 external_link: ""
 image:
-  caption: Ancient irrigation works, Sri Lanka (photo by Dr. B)
+  caption: Image by highnesser from Pixabay.
   focal_point: Smart
 # links:
 # - icon: twitter
@@ -10,14 +10,11 @@ image:
 #   name: Follow
 #   url: https://twitter.com/georgecushen
 # slides: example
-summary: What strategies do smallholder farmers use to address climate uncertainty?
+summary: What are barriers and bridges to thriving rural livelihoods?
 tags:
-- Sri Lanka
-- Irrigation
-- Agroecology
-- Drought
+- Livelihoods
 - Climate Change
-title: Climate Resilience
+title: Rural Livelihoods
 url_code: ""
 url_pdf: ""
 url_slides: ""
