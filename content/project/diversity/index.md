@@ -12,7 +12,7 @@ image:
 # slides: example
 summary: How does land use change affect agricultural systems?
 tags:
-- Agricultural diversiy
+- Agricultural diversity
 - USDA
 - Yield
 - Agroecology
@@ -24,14 +24,14 @@ url_slides: ""
 url_video: ""
 ---
 
-Simplification of global landscapes, driven by the expansion and intensification of agriculture, has provided immediate gains for agricultural production, but also degraded beneficial ecosystem processes that support continued agricultural production. There is field-scale evidence of land use diversity's positive impacts on ecosystem health and agricultural production. However, the impacts of land use diversity at landscape scales, at which land use interacts with biophysical phenomena and human activities, is not well understood.  
+Today, over a third of global ice-free land is devoted to the production of food, fuel, and fiber. These agricultural landscapes are increasingly simplified and intensively managed. In the US, for example, five crops constitute nearly 80% of what is grown (corn, soy, wheat, hay, and alfalfa). This project examines the role of diversification--of crops, but also of people and practices--in boosting agricultural production, ecological integrity, and agricultural resilience.
 
-Our goal is to provide solutions for sustainable agriculture by characterizing how and why landscape simplification affects ecosystem health and agricultural productivity and by identifying barriers to landscape diversification.  
-
-This project is funded by USDA NIFA ([Grant 2020-67019-31157](https://cris.nifa.usda.gov/cgi-bin/starfinder/0?path=fastlink1.txt&id=anon&pass=&search=R=87791&format=WEBLINK)).  Other folks on the grant are [Dr. Kate Nelson](https://www.k-state.edu/geography/people/faculty/knelson.html) and [Dr. Jeremy Cowan](https://hnr.k-state.edu/people/faculty/cowan-jeremy/index.html) both at Kansas State University.
+This project is funded by USDA NIFA ([Grant 2020-67019-31157](https://cris.nifa.usda.gov/cgi-bin/starfinder/0?path=fastlink1.txt&id=anon&pass=&search=R=87791&format=WEBLINK)). 
 
 ## Publications
 
+* Nelson, K., **Burchfield, E.** (2023) [Defining features of diverse and productive agricultural systems: An archetype analysis of U.S. agricultural counties.](https://www.frontiersin.org/articles/10.3389/fsufs.2023.1081079/full) _Frontiers in Sustainable Food Systems_. 
+[https://doi.org/10.3389/fsufs.2023.1081079](https://doi.org/10.3389/fsufs.2023.1081079)
 * Nelson, K., **Burchfield, E.** (2021) [Landscape complexity and US crop production.](/publication/2021_NF) _Nature Food_. 
 [https://doi.org/10.1038/s43016-021-00281-1](https://doi.org/10.1038/s43016-021-00281-1)
 * **Burchfield, E.**, Nelson, K. (2021) [Agricultural yield geographies in the United States.](/publication/2021_GA) _Environmental Research Letters_. [https://doi.org/10.1088/1748-9326/abe88d](https://doi.org/10.1088/1748-9326/abe88d)
