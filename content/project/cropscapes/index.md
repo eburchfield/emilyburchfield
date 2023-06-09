@@ -10,7 +10,7 @@ image:
 #   name: Follow
 #   url: https://twitter.com/georgecushen
 # slides: example
-summary: How will agricultural systems need to transform to respond to new climate realities?
+summary: How will agricultural systems adapt to new climate realities?
 tags:
 - Future yield
 - USDA

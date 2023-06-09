@@ -24,7 +24,7 @@ url_slides: ""
 url_video: ""
 ---
 
-Today, over a third of global ice-free land is devoted to agricultural production. These agricultural landscapes are increasingly simplified and intensively managed. This project examines the role of diversification--of crops, but also of people and practices--in boosting agricultural production, ecological integrity, and agricultural resilience. This project is funded by [USDA NIFA Grant 2020-67019-31157](https://cris.nifa.usda.gov/cgi-bin/starfinder/0?path=fastlink1.txt&id=anon&pass=&search=R=87791&format=WEBLINK)). 
+Today, over a third of global ice-free land is devoted to agricultural production. These agricultural landscapes are increasingly simplified and intensively managed. This project examines the role of diversification--of crops, but also of people and practices--in boosting agricultural production, ecological integrity, and agricultural resilience. This project is funded by [USDA NIFA Grant 2020-67019-31157](https://cris.nifa.usda.gov/cgi-bin/starfinder/0?path=fastlink1.txt&id=anon&pass=&search=R=87791&format=WEBLINK). 
 
 ## Publications
 
