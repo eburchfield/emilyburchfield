@@ -29,8 +29,8 @@ Future changes in climate will significantly transform US agriculture. Through i
 
 ## Publications
 
-* Schumacher, B., Burchfield, E., Brennan, B., Yost, M. (2023). [Leveraging important covariate groups for corn yield prediction](https://www.mdpi.com/2077-0472/13/3/618). _Agriculture_. _14_(3), 618.
+* Schumacher, B., **Burchfield, E.**, Brennan, B., Yost, M. (2023). [Leveraging important covariate groups for corn yield prediction](https://www.mdpi.com/2077-0472/13/3/618). _Agriculture_. _14_(3), 618.
 * **Burchfield, E.** (2022). [Shifting cultivation geographies in the Central and Eastern US](https://iopscience.iop.org/article/10.1088/1748-9326/ac6c3d). _Environmental Research Letters_. 17, 054049. [https://doi.org/10.1088/1748-9326/ac6c3d](https://doi.org/10.1088/1748-9326/ac6c3d)
-* Burchfield, E., Nelson, K. (2021) [Agricultural yield geographies in the United States.](/publication/2021_GA) _Environmental Research Letters_. [https://doi.org/10.1088/1748-9326/abe88d](https://doi.org/10.1088/1748-9326/abe88d)
+* **Burchfield, E.**, Nelson, K. (2021) [Agricultural yield geographies in the United States.](/publication/2021_GA) _Environmental Research Letters_. [https://doi.org/10.1088/1748-9326/abe88d](https://doi.org/10.1088/1748-9326/abe88d)
 * **Burchfield, E.**, Matthews-Pennanen, N., Stoebner, J., Lant, C. (2019).  Changing yields in the Central United States under climate and technological change. _Climatic Change_, _159_, 329-346. [https://doi.org/10.1007/s10584-019-02567-7](https://doi.org/10.1007/s10584-019-02567-7). Preprint available [here](/files/Burchfield_FY_preprint.pdf).
 
