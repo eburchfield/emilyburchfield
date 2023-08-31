@@ -5,10 +5,10 @@
 widget = "people"  # See https://sourcethemes.com/academic/docs/page-builder/
 headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
-weight = 20  # Order that this section will appear.
+weight = 30  # Order that this section will appear.
 
-title = " "
-subtitle = "We study the interactions between Food, Agriculture, Climate, and Environment to support Sustainability!"
+title = "The Team"
+subtitle = " "
 
 [content]
   # Choose which groups/teams of users to display.
