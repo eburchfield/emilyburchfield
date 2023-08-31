@@ -5,6 +5,17 @@ header:
 layout: docs
 title: Courses
 ---
+#+++
+# A "Meet the Team" section created with the People widget.
+# This section displays people from `content/authors/` which belong to the `user_groups` below.
+
+#widget = "people"  # See https://sourcethemes.com/academic/docs/page-builder/
+#headless = true  # This file represents a page section.
+# active = false  # Activate this widget? true/false
+#weight = 20  # Order that this section will appear.
+
+#title = " "
+#subtitle = "We study the interactions between Food, Agriculture, Climate, and Environment to support Sustainability"
 
 [content]
   # Choose which groups/teams of users to display.
