@@ -5,8 +5,8 @@ headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
 weight = 30  # Order that this section will appear.
 
-title = "Projects"
-subtitle = ""
+title = ""
+subtitle = "We're the FACES Lab. We study the interactions between Food, Agriculture, Climate, and Environment to support Sustainability. Explore what we're working on!"
 
 [content]
   # Page type to display. E.g. project.
