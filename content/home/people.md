@@ -8,7 +8,7 @@ active = true  # Activate this widget? true/false
 weight = 20  # Order that this section will appear.
 
 title = " "
-subtitle = "We study the interactions between Food, Agriculture, Climate, and Environment to support Sustainability"
+subtitle = "We study the interactions between Food, Agriculture, Climate, and Environment to support Sustainability!"
 
 [content]
   # Choose which groups/teams of users to display.
