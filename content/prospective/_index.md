@@ -25,3 +25,7 @@ I welcome applications from students interested in joining the [Department of En
 
 Prior experience in GIS, programming, and statistics is strongly recommended. 
 
+## **Postdoctoral Researchers** 
+
+We're hiring! We’re looking for someone to join an interdisciplinary, trans-institutional project that will engage stakeholders in three U.S. states to identify, model, and understand the emergent crops, technologies, policies, and on-farm realities likely to alter agricultural futures in each region. Interdisciplinary backgrounds are encouraged, but candidates should have significant research experience at the intersections of agricultural science and data science. For more information and to apply, please visit [this website](https://faculty-emory.icims.com/jobs/123794/post-doctoral-fellow---department-of-environmental-sciences/job). Applications are due on March 1, 2024.
+
