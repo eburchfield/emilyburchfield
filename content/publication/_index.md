@@ -8,9 +8,12 @@ title: Publications
 
 ## 2023
 
+* Rissing, A., Burchfield, E. (2024). [Crop diversification as landscape change: Using land systems science to understand agricultural trajectories in North Carolina.](https://doi.org/10.1007/s10113-023-02162-8) 24 (3). Regional Environmental Change. 
 * Rissing, A., Burchfield, E., Spangler, K., Schumacher, B. (2023). [Implications of US agricultural data practice for sustainable food systems research](https://www.nature.com/articles/s43016-023-00711-2?utm_source=natfood_etoc&utm_medium=email&utm_campaign=toc_43016_4_3&utm_content=20230325).  _Nature Food_. 4, 213-217.
 * Schumacher, B., Burchfield, E., Brennan, B., Yost, M. (2023). [Leveraging important covariate groups for corn yield prediction](https://www.mdpi.com/2077-0472/13/3/618). _Agriculture_. _14_(3), 618.
 * Nelson, K. Burchfield, E. (2023). [Defining features of diverse and productive agricultural systems: An archetype analysis of US agricultural counties.](https://www.mdpi.com/2077-0472/13/3/618) _Frontiers in Sustainable Food Systems_. _7_(76). 
+* Briske, D., Archer, S. Burchfield, E., Burnidge, W., Derner, J., Gosnell, H., Hatfield, J., Kazanaski, C., Khalil, M., Lark, T., Nagler, P., Sala, O., Sayre, N., Stackhouse-Lawson, K. (2023). [Supplying ecosystem services on US rangelands.](https://www.nature.com/articles/s41893-023-01194-6) _Nature Sustainability_.
+
 
 
 ## 2022
