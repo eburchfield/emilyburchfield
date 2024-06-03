@@ -27,6 +27,8 @@ url_video: ""
 
 Future changes in climate will significantly transform US agriculture. Through iterative participatory modeling, this project will co-produce projections of future production geographies of major crops cultivated in the Central and Eastern US under multiple stakeholder-generated scenarios of climatic and socio-technical change. 
 
+Learn more about this growing project at [thrivingfuturecropscapes.org](www.thrivingfuturecropscapes.org)!
+
 ## Publications
 
 * Schumacher, B., **Burchfield, E.**, Brennan, B., Yost, M. (2023). [Leveraging important covariate groups for corn yield prediction](https://www.mdpi.com/2077-0472/13/3/618). _Agriculture_. _14_(3), 618.
