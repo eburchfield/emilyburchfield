@@ -6,6 +6,18 @@ layout: docs
 title: Publications
 ---
 
+## 2024
+
+* Haycock, S., Bean, B., Burchfield, E. (2024). Producing fast and convenient machine learning
+benchmarks in R with the stressor package. In press at Journal of Data Science.
+* Burchfield, E., Crossley, M., Nelson, K. (2024). [Rotational complexity across US counties
+is currently insufficient to observe yield gains in major crops](https://doi.org/10.1088/1748-9326/ad300b). 19(4). Environmental Research
+Letters. 
+* Schnur, S. Maki, C., Burchfield, E. (2024) [Farmers Need the Land: Georgia’s Agricultural
+Future in the Patchy Anthropocene](https://doi.org/10.1016/j.jrurstud.2024.103259). 107, 103259. Journal of Rural Studies.
+
+
+
 ## 2023
 
 * Rissing, A., Burchfield, E. (2024). [Crop diversification as landscape change: Using land systems science to understand agricultural trajectories in North Carolina.](https://doi.org/10.1007/s10113-023-02162-8) 24 (3). Regional Environmental Change. 
