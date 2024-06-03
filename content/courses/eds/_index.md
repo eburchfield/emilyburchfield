@@ -18,7 +18,7 @@ tags: ["data science", "courses", "R", "tidyverse", "geospatial analysis"]
 
 ## Background
 
-This course was taught at Emory University in 2020 (a great year!). Below, you'll find links to the tutorials we covered in the class.  
+This course is taught every fall at Emory. Below, you'll find links to the tutorials we cover in the class.  
 
 ## Content
 

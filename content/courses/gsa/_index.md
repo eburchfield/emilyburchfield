@@ -22,8 +22,6 @@ This course was originally taught at Utah State University in 2018 and 2019.  Be
 
 ## Content
 
-Most of the programming material for this course has been collapsed into RMarkdown documents I call "programming tutorials".  Below, you'll find links to all of the tutorials we covered in this course:
-
 * [Data wrangling with `dplyr`](2_describing_data_lab.html)
 * [Data visualization with `ggplot`](3_viz_lab.html)
 * [Spatial projections in `R`](5_projections.html)
