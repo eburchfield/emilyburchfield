@@ -6,4 +6,4 @@ layout: docs
 title: Diversity
 ---
 
-<center> Artwork by the amazing Lois Chang. </center>
+<center> Artwork by Lois Chang. </center>
