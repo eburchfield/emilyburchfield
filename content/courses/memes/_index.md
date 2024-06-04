@@ -18,4 +18,4 @@ tags: ["memes", "courses", "R"]
 
 Every year in Environmental Data Science, a brave group of undergraduate submit memes sharing their love of (fear of?) the R programming language. I am honored to be able to share these rare pieces of art with you now:
 
-[m1.jpg]
+![2023 best of](m1.jpg)
