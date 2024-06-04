@@ -16,7 +16,7 @@ email: "scott.schnur@emory.edu"
 organizations:
 - name: Emory University
   url: ""
-role: Postdoctoral Researcher
+role: Postdoc
 # social:
 # - icon: envelope
 #   icon_pack: fas

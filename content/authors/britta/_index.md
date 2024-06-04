@@ -16,7 +16,7 @@ email: "britta.schumacher@aggiemail.usu.edu"
 organizations:
 - name: 
   url: ""
-role: MS
+role: MS, Ecology
 # social:
 # - icon: envelope
 #   icon_pack: fas

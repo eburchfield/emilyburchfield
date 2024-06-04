@@ -16,7 +16,7 @@ email: ""
 organizations:
 - name: 
   url: "https://andrearissing.weebly.com/"
-role: Postdoctoral Researcher
+role: Postdoc
 # social:
 # - icon: envelope
 #   icon_pack: fas
