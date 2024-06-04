@@ -5,7 +5,7 @@ headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
 weight = 20  # Order that this section will appear.
 
-title = "Projects"
+title = ""
 subtitle = "We study the interactions between Food, Agriculture, Climate, and Environment to support Sustainability! Learn more here:"
 
 [content]
@@ -69,7 +69,7 @@ subtitle = "We study the interactions between Food, Agriculture, Climate, and En
   # image_darken = 0.6  # Darken the image? Range 0-1 where 0 is transparent and 1 is opaque.
 
   # Text color (true=light or false=dark).
-  # text_color_light = true  
+  text_color_light = false  
   
 [advanced]
  # Custom CSS. 
