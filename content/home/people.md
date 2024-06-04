@@ -19,6 +19,7 @@ subtitle = " "
                  "Postdocs",
                  "Visitors",
                  "Alumni"]
+Test test test 
 
 [design]
   # Show user's social networking links? (true/false)
@@ -46,6 +47,7 @@ subtitle = " "
 
   # Text color (true=light or false=dark).
   # text_color_light = true  
+
   
 [advanced]
  # Custom CSS. 
