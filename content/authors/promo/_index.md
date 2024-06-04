@@ -29,9 +29,9 @@ role:
 #   link: https://github.com/eburchfield
 superuser: false
 title: Join us!
-user_groups: ["We're growing!"]
+user_groups: [""]
 
 ---
 
-
+The Department of Environmental Sciences is growing a new interdisciplinary PhD program! We hope to launch our first cohort in 2025. Stay tuned for opportunities to join our team, both at the doctoral and postdoctoral levels.
 
