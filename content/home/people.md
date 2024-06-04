@@ -18,8 +18,8 @@ subtitle = ""
                  "Undergraduate Students",
                  "Postdocs",
                  "Visitors",
-                 "Alumni",
-                 "We're growing!"]
+                 "We're growing!",
+                 "Alumni"]
 
 [design]
   # Show user's social networking links? (true/false)
