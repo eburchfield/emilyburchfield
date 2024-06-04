@@ -29,8 +29,6 @@ role: MS, Environmental Sciences
 #   link: https://github.com/eburchfield
 superuser: false
 title: Jared Gingrich
-user_groups: [""]
+user_groups: ["Alumni"]
 
 ---
-
-Jared is a first-year masters student in the Environmental Sciences Department at Emory University. He got his undergraduate degree from the University of Virginia in 2019, studying environmental science and archaeology. These two fields overlapped when he worked on the American Excavations at Samothrace as part of the excavation team while also assisting with the geospatial and geomorphological projects. At Emory, Jared is now studying geospatial data science and GIS, with a focus on the shifting food landscape of Atlanta, hoping to identify and understand patterns related to demographics, accessibility, and geography. 
