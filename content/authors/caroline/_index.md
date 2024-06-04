@@ -33,4 +33,3 @@ user_groups: [""]
 
 ---
 
-Caroline is currently a junior in Emory College majoring in environmental science on the ecology and conservation track and minoring in anthropology. She is also a member of the class of 2024 BS/MPH 4+1 program with Rollins School of Public Health to get her degree in environmental health. She is most interested in the intersections of environmental health and human health, and is currently researching the health and wellbeing of agricultural workers in the Southeast.

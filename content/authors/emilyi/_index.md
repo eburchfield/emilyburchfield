@@ -33,4 +33,3 @@ user_groups: [""]
 
 ---
 
-Emily is an undergraduate senior at Emory University majoring in environmental science with a minor in theater. Her focus is on sustainable agriculture practices and policy. This past spring, she studied abroad in Copenhagen, Denmark, to learn more about sustainable food systems in Scandinavia. This summer, she has been working on a wildlife-reserve farm in Virginia, helping to control invasive species. Under the mentorship of Dr. Burchfield, Emily is working on an honors thesis looking at crop diversity in her home area of Maryland/Virginia, with the eventual goal of interviewing farmers about their views on crop diversification.  
