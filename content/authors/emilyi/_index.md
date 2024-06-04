@@ -16,7 +16,7 @@ email: "emily.elizabeth.isaac@emory.edu"
 organizations:
 - name: Emory University
   url: ""
-role: BS, Environmental Sciences
+role: BS, ENVS
 # social:
 # - icon: envelope
 #   icon_pack: fas
