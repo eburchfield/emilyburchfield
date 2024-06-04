@@ -19,7 +19,6 @@ subtitle = " "
                  "Postdocs",
                  "Visitors",
                  "Alumni"]
-Test test test 
 
 [design]
   # Show user's social networking links? (true/false)
