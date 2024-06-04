@@ -16,7 +16,7 @@ email: ""
 organizations:
 - name: 
   url: ""
-role: 
+role: PhD/Postdoc
 # social:
 # - icon: envelope
 #   icon_pack: fas
