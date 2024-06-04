@@ -5,7 +5,7 @@ headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
 weight = 20  # Order that this section will appear.
 
-title = ""
+title = "Projects"
 subtitle = "We study the interactions between Food, Agriculture, Climate, and Environment to support Sustainability! Learn more here:"
 
 [content]
