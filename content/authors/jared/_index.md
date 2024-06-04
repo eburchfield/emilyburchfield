@@ -16,7 +16,7 @@ email: "jared.gingrich@emory.edu"
 organizations:
 - name: Emory University
   url: ""
-role: MS, Environmental Sciences
+role: MS
 # social:
 # - icon: envelope
 #   icon_pack: fas

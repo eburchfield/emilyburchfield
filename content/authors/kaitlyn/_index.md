@@ -16,7 +16,7 @@ email: ""
 organizations:
 - name: 
   url: "https://aese.psu.edu/directory/kas6281"
-role: PhD student
+role: PhD 
 # social:
 # - icon: envelope
 #   icon_pack: fas

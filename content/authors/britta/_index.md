@@ -14,9 +14,9 @@ bio:
 #     year: 2010
 email: "britta.schumacher@aggiemail.usu.edu"
 organizations:
-- name: Utah State University
+- name: 
   url: ""
-role: MS, Ecology
+role: MS
 # social:
 # - icon: envelope
 #   icon_pack: fas
@@ -34,3 +34,4 @@ user_groups:
 
 ---
 
+Britta is currently completing a PhD at Utah State University on irrigation futures in the Western US.
