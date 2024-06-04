@@ -14,9 +14,9 @@ bio:
 #     year: 2010
 email: ""
 organizations:
-- name: Penn State University
+- name: 
   url: "https://aese.psu.edu/directory/kas6281"
-role: Assistant Professor
+role: PhD student
 # social:
 # - icon: envelope
 #   icon_pack: fas
@@ -33,4 +33,6 @@ user_groups:
 - "Alumni"
 
 ---
+
+Dr. Spangler is now an Assistant Professor of Community Development and Engagement at Penn State University. You can learn more about her current research [here](https://scholar.google.com/citations?user=UR2LF24AAAAJ&hl=en).
 

@@ -14,9 +14,9 @@ bio:
 #     year: 2010
 email: ""
 organizations:
-- name: Arizona State University
-  url: ""
-role: Assistant Professor
+- name: 
+  url: "https://andrearissing.weebly.com/"
+role: Postdoctoral Researcher
 # social:
 # - icon: envelope
 #   icon_pack: fas
@@ -33,5 +33,5 @@ user_groups: ["Alumni"]
 
 ---
 
- 
+Dr. Rissing is now an Assistant Professor at Arizona State University in the School of Sustainability and works as affiliated faculty in the Swette Center for Sustainable Food Systems. You can read more about her exciting research program [here](https://andrearissing.weebly.com/).
 
