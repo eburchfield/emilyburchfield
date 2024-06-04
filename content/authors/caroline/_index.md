@@ -29,7 +29,7 @@ role: BS, ENVS
 #   link: https://github.com/eburchfield
 superuser: false
 title: Caroline Maki
-user_groups: [""]
+user_groups: ["Alumni"]
 
 ---
 

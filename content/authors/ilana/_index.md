@@ -29,7 +29,7 @@ role: BS, ENVS
 #   link: https://github.com/eburchfield
 superuser: false
 title: Ilana Fischer
-user_groups: [""]
+user_groups: ["Alumni"]
 
 ---
 
