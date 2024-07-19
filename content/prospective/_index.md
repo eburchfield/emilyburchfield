@@ -16,16 +16,18 @@ Emory undergraduates interested in joining the lab should first take my [Environ
 
 ## **Graduate Students**
 
-I welcome applications from students interested in joining the [Department of Environmental Sciences Masters program](http://envs.emory.edu/home/graduate/index.html) at Emory. I strongly recommend you contact me prior to applying for the program. When you contact me, please include the following:
+We are thrilled to announce the launch of a new interdisciplinary [PhD program in Environmental Sciences and Society](https://envs.emory.edu/graduate/phd-program.html). The first cohort will start in Fall 2025. This program will center problem-based, applied, interdisciplinary work and will encourage communication and engagement outside of academia.
 
-* A brief description of your research interests
+If you're interested in participating in this program as a member of the FACES lab, contact Dr. B via email and include the following:
+
+* A brief description of your research interests and career goals. If you could design your PhD research from scratch, what would you study? Why?
 * Your CV
 * Unofficial transcripts
-* GRE scores. 
+* GRE scores 
 
-Prior experience in GIS, programming, and statistics is strongly recommended. 
+Prior experience in GIS, programming, and statistics is strongly recommended for work in the FACES lab, though not required.
 
 ## **Postdoctoral Researchers** 
 
-We don't have any open positions at the moment.
+No open positions at the moment. Check back for more soon!
 
