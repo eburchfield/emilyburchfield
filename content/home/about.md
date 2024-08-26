@@ -5,7 +5,7 @@ headless = true  # This file represents a page section.
 active = false  # Activate this widget? true/false
 weight = 20  # Order that this section will appear in.
 
-title = "The FACES Lab"
+title = "The FACES Research Group"
 subtitle = "We study the interactions between Food, Agriculture, Climate, and Environment to support Sustainability"
 
 # Choose the user profile to display
