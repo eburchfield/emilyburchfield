@@ -29,5 +29,5 @@ Prior experience in GIS, programming, and statistics is strongly recommended for
 
 ## **Postdoctoral Researchers** 
 
-[New postdoc position here](https://faculty-emory.icims.com/jobs/139394/post-doctoral-fellow/job?mode=view&mobile=false&width=720&height=500&bga=true&needsRedirect=false&jan1offset=-300&jun1offset=-240) in Integrated Agricultural Modeling! Apply before the end of January 2025.
+[New postdoc position here](https://faculty-emory.icims.com/jobs/139394/post-doctoral-fellow/job?mode=view&mobile=false&width=720&height=500&bga=true&needsRedirect=false&jan1offset=-300&jun1offset=-240) in Integrated Agricultural Modeling! The postdoc will be co-advised by Dr. B and Dr. Eric Lonsdorf. Apply before the end of January 2025.
 
