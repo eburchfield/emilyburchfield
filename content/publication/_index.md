@@ -10,12 +10,12 @@ title: Publications
 
 * Burchfield, E., Ferro, M., Huttel, S., Lakes, T., Niedermayr, A., Rissing, A., Seifert, S.,
 Wesemeyer, M. (2024). [Towards a comparative analysis of agricultural land systems in the EU
-and US: A critical comparison of publicly available datasets.](https://doi.org/10.1016/j.landusepol.2024.107371) 147 (107371). _Land Use Policy_.
+and US: A critical comparison of publicly available datasets.](https://doi.org/10.1016/j.landusepol.2024.107371) 147(107371). _Land Use Policy_.
 * Ribert, J., Nelson, K., Burchfield, E. (2024). [Linking Diversity – Productivity
-Conditions of Farming Systems with the Well-Being of Agricultural Communities](https://doi.org/10.3390/su16166826). 16 (16), 6826. _Sustainability_. 
+Conditions of Farming Systems with the Well-Being of Agricultural Communities](https://doi.org/10.3390/su16166826). 16(16), 6826. _Sustainability_. 
 * Christman, M., Spears, L., Burchfield, E., Pearse, W., Strange, J., Ramirez, R. (2024)
 [Bumble bee responses to climate and landscapes: Investigating habitat associations and species
-assemblages across geographic regions in the United States of America.](https://doi.org/10.1111/gcb.17380) _Global Change Biology_. 
+assemblages across geographic regions in the United States of America.](https://doi.org/10.1111/gcb.17380) 30(6). _Global Change Biology_. 
 * Haycock, S., Bean, B., Burchfield, E. (2024). [Producing fast and convenient machine learning
 benchmarks in R with the stressor package](https://jds-online.org/journal/JDS/article/1368/info). _Journal of Data Science_.
 * Burchfield, E., Crossley, M., Nelson, K. (2024). [Rotational complexity across US counties
