@@ -29,5 +29,5 @@ Prior experience in GIS, programming, and statistics is strongly recommended for
 
 ## **Postdoctoral Researchers** 
 
-[New postdoc position here](https://faculty-emory.icims.com/jobs/139394/post-doctoral-fellow/job?mode=view&mobile=false&width=720&height=500&bga=true&needsRedirect=false&jan1offset=-300&jun1offset=-240) in Integrated Agricultural Modeling! The postdoc will be co-advised by Dr. B and Dr. Eric Lonsdorf. Apply before the end of January 2025.
+[February 2025: New Postdoctoral Researcher position here!](https://faculty-emory.icims.com/jobs/141340/post-doctoral-fellow/job?mobile=false&width=1140&height=500&bga=true&needsRedirect=false&jan1offset=-300&jun1offset=-240) The postdoc will join an interdisciplinary and trans-institutional [USDA-funded project](https://farmingclimatesmart.org/) led by the Rodale Institute that is quantifying the potential to reduce greenhouse gas emissions and increase carbon sequestration on Southeastern vegetable farms. The post will work closely with Dr. B to understand the scalability of sequestration benefits across the Southern Piedmont region and to assess the future suitability of the cropping systems proposed by our team. Apply before the end of February 2025.
 
