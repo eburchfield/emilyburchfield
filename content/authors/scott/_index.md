@@ -29,7 +29,8 @@ role: Postdoc
 #   link: https://github.com/eburchfield
 superuser: false
 title: Dr. Scott Schnur
-user_groups: ["Alumni"]
+user_groups:
+- "Alumni"
 
 ---
 
