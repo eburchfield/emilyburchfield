@@ -8,7 +8,7 @@ active = true  # Activate this widget? true/false
 weight = 30  # Order that this section will appear.
 
 title = "The Team"
-subtitle = ""
+subtitle = "(We're small but mighty, and growing fast as Emory builds a new PhD program!)"
 
 [content]
   # Choose which groups/teams of users to display.

@@ -3,7 +3,7 @@ header:
   caption: ""
   image: ""
 layout: docs
-title: Interested in joining the lab?
+title: Interested in joining the team?
 # https://www.nrem.iastate.edu/landscape/joining-lab
 ---
 
