@@ -6,7 +6,7 @@ active = false  # Activate this widget? true/false
 weight = 20  # Order that this section will appear in.
 
 title = "The FACES Research Group"
-subtitle = "We study the interactions between Food, Agriculture, Climate, and Environment to support Sustainability"
+subtitle = "We study the interactions between Food, Agriculture, Climate, and Environment to support Sustainability."
 
 # Choose the user profile to display
 # This should be the username of a profile in your `content/authors/` folder.

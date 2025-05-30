@@ -6,7 +6,7 @@ active = true  # Activate this widget? true/false
 weight = 20  # Order that this section will appear.
 
 title = "Projects"
-subtitle = "We study the interactions between Food, Agriculture, Climate, and Environment to support Sustainability! Learn more here:"
+subtitle = "We study the interactions between Food, Agriculture, Climate, and Environment to support Sustainability."
 
 [content]
   # Page type to display. E.g. project.
