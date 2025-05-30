@@ -16,7 +16,7 @@ email: "emily.burchfield@emory.edu"
 organizations:
 - name: Emory University
   url: "http://college.emory.edu/main/index.html"
-role: Assistant Professor
+role: Associate Professor
 social:
 - icon: envelope
   icon_pack: fas
