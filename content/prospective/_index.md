@@ -16,9 +16,7 @@ Emory undergraduates interested in joining the lab should first take my [Environ
 
 ## **Graduate Students**
 
-We are thrilled to announce the launch of a new interdisciplinary [PhD program in Environmental Sciences and Society](https://envs.emory.edu/graduate/phd-program.html). The first cohort will start in Fall 2025. This program will center problem-based, applied, interdisciplinary work and will encourage communication and engagement outside of academia.
-
-If you're interested in participating in this program as a member of the FACES lab, contact Dr. B via email and include the following:
+We are thrilled to announce the launch of a new interdisciplinary [PhD program in Environmental Sciences and Society](https://envs.emory.edu/graduate/phd-program.html). The first cohort will start in Fall 2025. This program will center problem-based, applied, interdisciplinary work and will encourage communication and engagement outside of academia. If you're interested in participating in this program as a member of the FACES lab, contact Dr. B via email and include the following:
 
 * A brief description of your research interests and career goals. If you could design your PhD research from scratch, what would you study? Why?
 * Your CV
@@ -29,5 +27,5 @@ Prior experience in GIS, programming, and statistics is strongly recommended for
 
 ## **Postdoctoral Researchers** 
 
-[February 2025: New Postdoctoral Researcher position!](https://faculty-emory.icims.com/jobs/141340/post-doctoral-fellow/job?mobile=false&width=1140&height=500&bga=true&needsRedirect=false&jan1offset=-300&jun1offset=-240) The postdoc will join an interdisciplinary and trans-institutional [USDA-funded project](https://farmingclimatesmart.org/) led by the Rodale Institute that is quantifying the potential to reduce greenhouse gas emissions and increase carbon sequestration on Southeastern vegetable farms. The post will work closely with Dr. B to understand the scalability of sequestration benefits across the Southern Piedmont region and to assess the future suitability of the cropping systems proposed by our team. Apply before the end of February 2025.
+All postdoc positions in the lab are currently filled.
 
