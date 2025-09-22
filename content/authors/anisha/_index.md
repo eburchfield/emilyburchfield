@@ -29,7 +29,7 @@ role: ENVS, BS
 #   link: https://github.com/eburchfield
 superuser: false
 title: Anisha Johnson
-user_groups: [""]
+user_groups: ["Alumni"]
 
 ---
 
