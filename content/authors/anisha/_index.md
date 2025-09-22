@@ -16,7 +16,7 @@ email: "anisha.johnson@emory.edu"
 organizations:
 - name: Emory University
   url: ""
-role: ENVS, BS
+role: BS, ENVS
 # social:
 # - icon: envelope
 #   icon_pack: fas
