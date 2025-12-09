@@ -29,7 +29,7 @@ role: Visiting PhD student
 #   link: https://github.com/eburchfield
 superuser: false
 title: Marco Ferro
-user_groups: [""]
+user_groups: ["Alumni"]
 
 ---
 
