@@ -22,6 +22,11 @@
   name = "Teaching"
   url = "courses/"
   weight = 40
+  
+[[main]]
+  name = "Comics!"
+  url = "comics/"
+  weight = 50
 
 #[[main]]
 #  name = "How to R"
@@ -31,17 +36,17 @@
 [[main]]
   name = "Diversity"
   url = "diversity/"
-  weight = 50
+  weight = 60
   
   
 [[main]]
   name = "Join Us"
   url = "prospective/"
-  weight = 60
+  weight = 70
 
 [[main]]
   name = "Contact"
   url = "#cntact"
-  weight = 70
+  weight = 80
 
 
