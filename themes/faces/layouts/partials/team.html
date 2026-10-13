@@ -1,0 +1,27 @@
+{{/* Current team: profiles in content/authors (alumni live in archive/). Emily (admin) first, then by weight and name. */}}
+{{ $admin := slice }}
+{{ $rest := slice }}
+{{ with site.GetPage "/authors" }}
+  {{ range .Pages }}
+    {{ if .File }}
+      {{ $groups := .Params.user_groups | default (slice "") }}
+      {{ if not (in $groups "Alumni") }}
+        {{ if eq (path.Base (strings.TrimSuffix "/" .File.Dir)) "admin" }}{{ $admin = $admin | append . }}{{ else }}{{ $rest = $rest | append . }}{{ end }}
+      {{ end }}
+    {{ end }}
+  {{ end }}
+{{ end }}
+<div class="people">
+  {{ range $admin | append (sort $rest "Params.weight") }}
+    <a class="person" href="{{ .RelPermalink }}">
+      {{ with or (.Resources.GetMatch "avatar*") (.Resources.GetMatch "*.{jpg,jpeg,png,webp}") }}
+        {{ $img := .Fill "336x336 Center q80" }}
+        <img src="{{ $img.RelPermalink }}" width="168" height="168" alt="" loading="lazy">
+      {{ else }}
+        <span class="avatar-blank" aria-hidden="true">{{ substr (replace .Title "Dr. " "") 0 1 }}</span>
+      {{ end }}
+      <h3>{{ .Title }}</h3>
+      <p>{{ .Params.role }}</p>
+    </a>
+  {{ end }}
+</div>

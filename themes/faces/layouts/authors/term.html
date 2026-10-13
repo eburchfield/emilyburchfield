@@ -1,0 +1,26 @@
+{{ define "main" }}
+<header class="page-head">
+  <div class="wrap">
+    <p class="eyebrow">{{ .Params.role }}</p>
+    <h1>{{ .Title }}</h1>
+  </div>
+</header>
+<div class="wrap">
+  <div class="profile">
+    <div class="profile-side">
+      {{ with or (.Resources.GetMatch "avatar*") (.Resources.GetMatch "*.{jpg,jpeg,png,webp}") }}
+        {{ $img := .Fill "480x480 Center q80" }}
+        <img src="{{ $img.RelPermalink }}" alt="{{ $.Title }}">
+      {{ end }}
+      {{ with .Params.email }}<p><a href="mailto:{{ . }}">{{ . }}</a></p>{{ end }}
+    </div>
+    <div class="profile-main prose" style="padding: 0">
+      {{ .Content }}
+      {{ with .Params.education }}{{ with .courses }}
+        <h2 style="font-size: 26px">Education</h2>
+        <ul>{{ range . }}<li>{{ .course }}, {{ .institution }}, {{ .year }}</li>{{ end }}</ul>
+      {{ end }}{{ end }}
+    </div>
+  </div>
+</div>
+{{ end }}

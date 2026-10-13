@@ -17,7 +17,7 @@ image:
   focal_point: ""
   preview_only: false
 projects: 
-publication: '*Frontiers in Sustainable Food Systems*'
+publication: '*Environmental Research Letters*'
 # publication_short: ""
 publication_types:
 - "2"

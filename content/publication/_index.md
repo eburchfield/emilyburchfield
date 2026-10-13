@@ -6,11 +6,19 @@ layout: docs
 title: Publications
 ---
 
+## 2026
+
+* Nelson, K., Bean, B., Burchfield, E. (2026). [Consistent positive associations between landscape diversity and crop yields](https://doi.org/10.1111/gcb.70894). _Global Change Biology_, 32(5), e70894.
+
+## 2025
+
+* Francois, J., Nelson, K., Burchfield, E., Rissing, A. (2025). [Contexts of crop selection decisions shape changing agricultural landscape diversity in the United States](https://doi.org/10.1007/s10460-025-10764-7). 42, 2631-2649. _Agriculture and Human Values_.
+* Spangler, K., Rissing, A., Burchfield, E., Schumacher, B., Powell, B., Siegel, K. (2025). [Nutritious monocultures? Where and how fruits and vegetables are produced in the US](https://doi.org/10.1016/j.gfs.2025.100860). 45, 100860. _Global Food Security_.
+* Magliocca, N., Burchfield, E., Chapman Busby, E., Brantley, E., Cleveland, O., Ellenburg, W., Fischer, K., Kumar, M., Mishra, V., McGuire, D., Nair, U., Pate, A., Pathak, R., Sawadgo, W., Ribeiro da Silva, A., White, A., Williams, A., Worosz, M. (2025). [Leverage points to pathways for transformation of agri-food systems](https://doi.org/10.1088/2976-601X/adeca9). _Environmental Research: Food Systems_, 2(3), 035007.
+
 ## 2024
 
-* Burchfield, E., Ferro, M., Huttel, S., Lakes, T., Niedermayr, A., Rissing, A., Seifert, S.,
-Wesemeyer, M. (2024). [Towards a comparative analysis of agricultural land systems in the EU
-and US: A critical comparison of publicly available datasets.](https://doi.org/10.1016/j.landusepol.2024.107371) 147(107371). _Land Use Policy_.
+* Burchfield, E., Ferro, M., Hüttel, S., Lakes, T., Leonhardt, H., Niedermayr, A., Rissing, A., Seifert, S., Wesemeyer, M. (2024). [Towards a comprehensive analysis of agricultural land systems in the EU and US: A critical view on publicly available datasets.](https://doi.org/10.1016/j.landusepol.2024.107371) 147, 107371. _Land Use Policy_.
 * Ribert, J., Nelson, K., Burchfield, E. (2024). [Linking Diversity – Productivity
 Conditions of Farming Systems with the Well-Being of Agricultural Communities](https://doi.org/10.3390/su16166826). 16(16), 6826. _Sustainability_. 
 * Christman, M., Spears, L., Burchfield, E., Pearse, W., Strange, J., Ramirez, R. (2024)
@@ -19,24 +27,24 @@ assemblages across geographic regions in the United States of America.](https://
 * Haycock, S., Bean, B., Burchfield, E. (2024). [Producing fast and convenient machine learning
 benchmarks in R with the stressor package](https://jds-online.org/journal/JDS/article/1368/info). _Journal of Data Science_.
 * Burchfield, E., Crossley, M., Nelson, K. (2024). [Rotational complexity across US counties
-is currently insufficient to observe yield gains in major crops](https://doi.org/10.1088/1748-9326/ad300b). 19(4). _Environmental Research
+is currently insufficient to observe yield gains in major crops](https://doi.org/10.1088/1748-9326/ad300b). 19(4), 044024. _Environmental Research
 Letters_. 
 * Schnur, S. Maki, C., Burchfield, E. (2024) [Farmers Need the Land: Georgia’s Agricultural
 Future in the Patchy Anthropocene](https://doi.org/10.1016/j.jrurstud.2024.103259). 107, 103259. _Journal of Rural Studies_.
+* Rissing, A., Burchfield, E. (2024). [Crop diversification as landscape change: Using land systems science to understand agricultural trajectories in North Carolina.](https://doi.org/10.1007/s10113-023-02162-8) 24(1), 3. _Regional Environmental Change_.
 
 ## 2023
 
-* Rissing, A., Burchfield, E. (2024). [Crop diversification as landscape change: Using land systems science to understand agricultural trajectories in North Carolina.](https://doi.org/10.1007/s10113-023-02162-8) 24 (3). Regional Environmental Change. 
 * Rissing, A., Burchfield, E., Spangler, K., Schumacher, B. (2023). [Implications of US agricultural data practice for sustainable food systems research](https://www.nature.com/articles/s43016-023-00711-2?utm_source=natfood_etoc&utm_medium=email&utm_campaign=toc_43016_4_3&utm_content=20230325).  _Nature Food_. 4, 213-217.
-* Schumacher, B., Burchfield, E., Brennan, B., Yost, M. (2023). [Leveraging important covariate groups for corn yield prediction](https://www.mdpi.com/2077-0472/13/3/618). _Agriculture_. _14_(3), 618.
-* Nelson, K. Burchfield, E. (2023). [Defining features of diverse and productive agricultural systems: An archetype analysis of US agricultural counties.](https://www.mdpi.com/2077-0472/13/3/618) _Frontiers in Sustainable Food Systems_. _7_(76). 
+* Schumacher, B., Burchfield, E., Bean, B., Yost, M. (2023). [Leveraging important covariate groups for corn yield prediction](https://doi.org/10.3390/agriculture13030618). _Agriculture_. _13_(3), 618.
+* Nelson, K., Burchfield, E. (2023). [Defining features of diverse and productive agricultural systems: An archetype analysis of US agricultural counties.](https://doi.org/10.3389/fsufs.2023.1081079) _Frontiers in Sustainable Food Systems_. _7_, 1081079. 
 * Briske, D., Archer, S. Burchfield, E., Burnidge, W., Derner, J., Gosnell, H., Hatfield, J., Kazanaski, C., Khalil, M., Lark, T., Nagler, P., Sala, O., Sayre, N., Stackhouse-Lawson, K. (2023). [Supplying ecosystem services on US rangelands.](https://www.nature.com/articles/s41893-023-01194-6) _Nature Sustainability_.
 
 
 
 ## 2022
 
-* Burchfield, E. (2022). Where and how to grow food. _Nature Food_. [https://doi.org/10.1038/s43016022-00663-z](https://doi.org/10.1038/s43016022-00663-z)
+* Burchfield, E. (2022). Where and how to grow food. _Nature Food_. [https://doi.org/10.1038/s43016-022-00663-z](https://doi.org/10.1038/s43016-022-00663-z)
 * Spangler, K., Burchfield, E., Radel, C., Jackson-Smith, D., Johnson, R. (2022). [Crop diversification in Idaho's Magic Valley: the present and the imaginary](https://link.springer.com/article/10.1007/s13593-022-00833-0). _Agronomy for Sustainable Development_. 42 (99). [https://doi.org/10.1007/s13593-022-00833-0](https://doi.org/10.1007/s13593-022-00833-0).
 * Burchfield, E. (2022). [Shifting cultivation geographies in the Central and Eastern US](https://iopscience.iop.org/article/10.1088/1748-9326/ac6c3d). _Environmental Research Letters_. 17, 054049. [https://doi.org/10.1088/1748-9326/ac6c3d](https://doi.org/10.1088/1748-9326/ac6c3d)
 * Spangler, K., Schumacher, B., Bean, B., Burchfield, E. (2022). [Path dependencies in US agriculture: Regional factors of diversification.](https://www.sciencedirect.com/science/article/abs/pii/S0167880922001062) _Agriculture, Ecosystems and Environment_, 333, 107957. [https://doi.org/10.1016/j.agee.2022.107957](https://doi.org/10.1016/j.agee.2022.107957)
@@ -46,19 +54,19 @@ Future in the Patchy Anthropocene](https://doi.org/10.1016/j.jrurstud.2024.10325
 	
 ## 2021
 
-* Nelson, K., Burchfield, E. (2021) [Landscape complexity and US crop production.](/publication/2021_NF) _Nature Food_. 
+* Nelson, K., Burchfield, E. (2021) [Landscape complexity and US crop production.](/publication/2021_nf/) _Nature Food_. 
 [https://doi.org/10.1038/s43016-021-00281-1](https://doi.org/10.1038/s43016-021-00281-1)
-* Burchfield, E., Nelson, K. (2021) [Agricultural yield geographies in the United States.](/publication/2021_GA) _Environmental Research Letters_. [https://doi.org/10.1088/1748-9326/abe88d](https://doi.org/10.1088/1748-9326/abe88d)
+* Burchfield, E., Nelson, K. (2021) [Agricultural yield geographies in the United States.](/publication/2021_ga/) _Environmental Research Letters_. [https://doi.org/10.1088/1748-9326/abe88d](https://doi.org/10.1088/1748-9326/abe88d)
 
 ## 2020
 
-* Burchfield, E., Schumacher, B. (2020) [Bright spots in US corn production.](/publication/2020_BS) _Environmental Research Letters_. _15_(10). [https://doi.org/10.1088/1748-9326/aba5b4](https://doi.org/10.1088/1748-9326/aba5b4)
-* Spangler, K., Burchfield, E., Schumacher, B. (2020) [Past and current dynamics of US agricultural land use and policy.](/publication/2020_FS) _Frontiers in Sustainable Food Systems._ _4_(9) [https://doi.org/10.3389/fsufs.2020.00098](https://doi.org/10.3389/fsufs.2020.00098)
+* Burchfield, E., Schumacher, B. (2020) [Bright spots in US corn production.](/publication/2020_bs/) _Environmental Research Letters_. _15_(10). [https://doi.org/10.1088/1748-9326/aba5b4](https://doi.org/10.1088/1748-9326/aba5b4)
+* Spangler, K., Burchfield, E., Schumacher, B. (2020) [Past and current dynamics of US agricultural land use and policy.](/publication/2020_fs/) _Frontiers in Sustainable Food Systems._ _4_(9) [https://doi.org/10.3389/fsufs.2020.00098](https://doi.org/10.3389/fsufs.2020.00098)
 
 ## 2019
 
-* Burchfield, E., Matthews-Pennanen, N., Stoebner, J., Lant, C. (2019).  [Changing yields in the Central United States under climate and technological change.](/publication/2019_CC) _Climatic Change_, _159_, 329-346.  Preprint available [here](/files/Burchfield_FY_preprint.pdf).
-* Burchfield, E., Nelson, K., Spangler, K. (2019).  [The impact of agricultural diversification on U.S. crop production.](/publication/2019_AEE) _Agriculture, Ecosystems & Environment._ _285_ 106615. Preprint available [here](/files/Burchfield_SDI_preprint.pdf).  
+* Burchfield, E., Matthews-Pennanen, N., Stoebner, J., Lant, C. (2019).  [Changing yields in the Central United States under climate and technological change.](/publication/2019_cc/) _Climatic Change_, _159_, 329-346.  Preprint available [here](/files/Burchfield_FY_preprint.pdf).
+* Burchfield, E., Nelson, K., Spangler, K. (2019).  [The impact of agricultural diversification on U.S. crop production.](/publication/2019_aee/) _Agriculture, Ecosystems & Environment._ _285_ 106615. Preprint available [here](/files/Burchfield_SDI_preprint.pdf).  
 
 ## 2018
 
@@ -70,7 +78,7 @@ Future in the Patchy Anthropocene](https://doi.org/10.1016/j.jrurstud.2024.10325
 
 ## 2017
 
-* Nelson, K., Burchfield, E. (2017). [Effects of the structure of water rights on agricultural production during drought: A spatiotemporal analysis of California's Central Valley.](https://doi.org/10.1002/2017WR020666)  _Water Resources Research._ _53_(10), 8923 - 8309. 
+* Nelson, K., Burchfield, E. (2017). [Effects of the structure of water rights on agricultural production during drought: A spatiotemporal analysis of California's Central Valley.](https://doi.org/10.1002/2017WR020666)  _Water Resources Research_, 53(10), 8293-8309.
 
 ## 2016
 

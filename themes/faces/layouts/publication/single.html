@@ -1,0 +1,36 @@
+{{ define "main" }}
+<header class="page-head">
+  <div class="wrap">
+    <p class="eyebrow">{{ .Date.Format "2006" }}{{ with .Params.publication }} · {{ . | markdownify | plainify }}{{ end }}</p>
+    <h1 style="font-size: clamp(32px, 4.6vw, 52px)">{{ .Title }}</h1>
+    {{ with .Params.authors }}
+      <p class="lede">{{ range $i, $a := . }}{{ if $i }}, {{ end }}{{ if eq $a "admin" }}Emily Burchfield{{ else }}{{ $a }}{{ end }}{{ end }}</p>
+    {{ end }}
+  </div>
+</header>
+<div class="wrap">
+  <article class="prose">
+    <div class="meta-row" style="margin: 0 0 32px">
+      {{ with .Params.doi }}<a href="https://doi.org/{{ . }}">Read the paper</a>{{ end }}
+      {{ with .Params.url_pdf }}<a href="{{ . }}">PDF</a>{{ end }}
+      {{ with .Params.url_code }}<a href="{{ . }}">Code</a>{{ end }}
+      {{ with .Params.url_dataset }}<a href="{{ . }}">Data</a>{{ end }}
+      {{ with .Resources.GetMatch "cite.bib" }}<a href="#cite">Cite</a>{{ end }}
+    </div>
+    {{ with .Resources.GetMatch "featured.*" }}
+      {{ $img := .Resize "1200x q82" }}
+      <figure style="margin: 0 0 32px">
+        <img src="{{ $img.RelPermalink }}" alt="Figure from the paper">
+        {{ with $.Params.image.caption }}<figcaption style="font-size: 15px; color: var(--muted); margin-top: 8px">{{ . | markdownify }}</figcaption>{{ end }}
+      </figure>
+    {{ end }}
+    {{ with .Params.abstract }}<h2>Abstract</h2><p>{{ . | markdownify }}</p>{{ end }}
+    {{ .Content }}
+    {{ with .Resources.GetMatch "cite.bib" }}
+      <h2 id="cite">Cite</h2>
+      <pre class="cite">{{ .Content }}</pre>
+    {{ end }}
+    <p style="margin-top: 40px"><a href="{{ "publication/" | relURL }}">← All publications</a></p>
+  </article>
+</div>
+{{ end }}

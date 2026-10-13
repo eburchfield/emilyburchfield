@@ -29,6 +29,7 @@ role: Research Fellow
 #   link: https://github.com/eburchfield
 superuser: false
 title: Dr. Kate Munden-Dixon
+weight: 2
 user_groups: [""]
 
 ---

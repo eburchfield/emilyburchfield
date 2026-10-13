@@ -1,0 +1,12 @@
+<header class="site-header{{ if .IsHome }} over-hero{{ end }}">
+  <nav class="wrap nav" aria-label="Main">
+    <a class="brand" href="{{ "/" | relURL }}">FACES Research Group</a>
+    <ul class="nav-links">
+      {{ $current := . }}
+      {{ range site.Menus.main }}
+        {{ $active := or ($current.IsMenuCurrent "main" .) ($current.HasMenuCurrent "main" .) (and (not $current.IsHome) (hasPrefix $current.RelPermalink .URL)) }}
+        <li><a href="{{ .URL | relURL }}"{{ if $active }} aria-current="page"{{ end }}{{ if eq .Name "Join us" }} class="nav-cta"{{ end }}>{{ .Name }}</a></li>
+      {{ end }}
+    </ul>
+  </nav>
+</header>

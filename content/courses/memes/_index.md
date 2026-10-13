@@ -11,7 +11,7 @@ summary: I know this is why you're really here. Juicy data science memes made by
 title: Data Science Memes
 toc: true
 type: docs
-weight: 1
+weight: 4
 tags: ["memes", "courses", "R"]
 
 ---
@@ -25,6 +25,6 @@ Every year in Environmental Data Science, a brave group of undergraduate submit 
 ![](m6.jpg)
 ![](m7.png)
 ![](m8.png)
-![](m9.jpg)
+![](m9.JPG)
 ![](corn1.png)
 ![](corn2.jpeg)

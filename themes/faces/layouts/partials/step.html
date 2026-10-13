@@ -1,0 +1,18 @@
+<div class="step">
+  <div class="step-media">
+    {{ if eq .Params.panel "timeline" }}
+      <div class="timeline-panel" aria-hidden="true"><span>today</span><span>2050</span><span>2100</span></div>
+    {{ else }}
+      {{ with .Resources.GetMatch "featured.*" }}
+        {{ $img := .Fill "1000x680 Center q80" }}
+        <img src="{{ $img.RelPermalink }}" width="{{ $img.Width }}" height="{{ $img.Height }}" alt="{{ $.Params.image_alt }}"{{ with $.Params.image_position }} style="{{ printf "object-position: %s" . | safeCSS }}"{{ end }} loading="lazy">
+      {{ end }}
+    {{ end }}
+  </div>
+  <div class="step-text">
+    <p class="eyebrow">{{ .Params.step }}</p>
+    <h3>{{ .Params.question }}</h3>
+    <p>{{ .Params.summary }}</p>
+    <a href="{{ .RelPermalink }}">{{ .Title }} →</a>
+  </div>
+</div>

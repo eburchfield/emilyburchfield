@@ -1,0 +1,31 @@
+{{ define "main" }}
+{{ partial "page-head.html" . }}
+<section class="section">
+  <div class="wrap">
+    <h2>Current team</h2>
+    <div style="margin-top: 40px">{{ partial "team.html" . }}</div>
+  </div>
+</section>
+<section class="section sand">
+  <div class="wrap">
+    <h2>Alumni</h2>
+    <p class="intro" style="margin-bottom: 40px">Former members of the FACES Research Group, with links to where they are now when we have them.</p>
+    <div class="alumni-groups">
+      {{ range slice (dict "role" "Postdoc" "label" "Postdoctoral researchers") (dict "role" "PhD" "label" "PhD") (dict "role" "MS" "label" "MS") (dict "role" "BS/BA" "label" "BS / BA") }}
+        {{ $people := where site.Data.alumni "role" .role }}
+        {{ if $people }}
+        <div class="alumni-group">
+          <h3>{{ .label }}</h3>
+          <ul class="alumni">
+            {{ range $people }}
+              <li>{{ if .link }}<a href="{{ .link }}">{{ .name }}</a>{{ else }}{{ .name }}{{ end }}{{ with .note }} <span>({{ . }})</span>{{ end }}</li>
+            {{ end }}
+          </ul>
+        </div>
+        {{ end }}
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{ partial "join.html" . }}
+{{ end }}

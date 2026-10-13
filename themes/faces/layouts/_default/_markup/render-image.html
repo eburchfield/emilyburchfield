@@ -1,0 +1,4 @@
+{{- $src := .Destination -}}
+{{- with .Page.Resources.GetMatch .Destination -}}{{- $src = .RelPermalink -}}{{- end -}}
+<img src="{{ $src }}" alt="{{ .Text }}"{{ with .Title }} title="{{ . }}"{{ end }} loading="lazy">
+{{- /* chomp trailing newline */ -}}

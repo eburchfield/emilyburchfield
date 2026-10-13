@@ -1,0 +1,55 @@
+# Former FACES Research Group members, shown on the People page grouped by role.
+# role: Postdoc, PhD, MS, or BS/BA. Add a link only to a professional page they use now.
+# When someone leaves: move their folder from content/authors/ to archive/, then add them here.
+# Source: Emily's CV (Student mentoring), October 2026. Committee-only students are not listed.
+
+- name: Heidrun Leonhardt
+  role: Postdoc
+  note: visiting
+  link: https://forschung.boku.ac.at/en/researcher/Heidrun%20Else-Leonhardt-123DABD59F57E73F
+- name: Lokendra Rathore
+  role: Postdoc
+  link: https://lrathore.com/
+- name: Andrea Rissing
+  role: Postdoc
+  link: https://andrearissing.weebly.com/
+- name: Scott Schnur
+  role: Postdoc
+  link: https://web.uri.edu/maf/meet/scott-schnur/
+
+- name: Marco Ferro
+  role: PhD
+  note: visiting
+  link: https://scholar.google.com/citations?user=myv6Y7IAAAAJ&hl=en
+- name: Kaitlyn Spangler
+  role: PhD
+  link: https://aese.psu.edu/directory/kas6281
+
+- name: Jared Gingrich
+  role: MS
+- name: Britta Schumacher
+  role: MS
+  link: https://scholar.google.com/citations?user=t52BmgUAAAAJ&hl=en
+
+- name: Sofia Benzi
+  role: BS/BA
+- name: Ilana Fischer
+  role: BS/BA
+- name: Emily Isaac
+  role: BS/BA
+- name: Anisha Johnson
+  role: BS/BA
+- name: Maggie Layer
+  role: BS/BA
+- name: Caroline Maki
+  role: BS/BA
+- name: Kaegan Ortlund
+  role: BS/BA
+- name: Jesus Palenzuela
+  role: BS/BA
+- name: Arantxa Sanchez
+  role: BS/BA
+- name: Dading Shi
+  role: BS/BA
+- name: Grayson Stone
+  role: BS/BA

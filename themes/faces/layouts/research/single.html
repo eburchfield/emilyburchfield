@@ -1,0 +1,26 @@
+{{ define "main" }}
+{{ partial "page-head.html" . }}
+<div class="wrap">
+  <article class="prose">
+    {{/* Optional project logo and team photo: drop logo.* and team.* into this page's folder. */}}
+    {{ with .Resources.GetMatch "logo.*" }}
+      <a href="{{ $.Params.project_link | default "#" }}"><img src="{{ .RelPermalink }}" alt="{{ $.Title }} project logo" style="max-height: 120px; width: auto; margin: 0 0 24px; border-radius: 0"></a>
+    {{ end }}
+    {{ .Content }}
+    {{ with .Resources.GetMatch "team.*" }}
+      {{ $img := .Resize "1400x q82" }}
+      <figure style="margin: 40px 0 0">
+        <img src="{{ $img.RelPermalink }}" alt="The {{ $.Title }} team" style="width: 100%">
+        {{ with $.Params.team_caption }}<figcaption style="font-size: 15px; color: var(--muted); margin-top: 8px">{{ . | markdownify }}</figcaption>{{ end }}
+      </figure>
+    {{ end }}
+    {{ with .Params.project_link }}<p style="margin-top: 32px"><a class="btn btn-wheat" href="{{ . }}">{{ $.Params.project_link_text | default "Visit the project site" }}</a></p>{{ end }}
+    {{ with .Params.image_credit }}<p style="font-size: 14px; color: var(--muted); margin-top: 48px">Header photo: {{ . | safeHTML }}</p>{{ end }}
+  </article>
+  <nav class="cards" aria-label="Other research steps" style="padding-bottom: 96px">
+    {{ range where .CurrentSection.Pages.ByWeight "RelPermalink" "!=" .RelPermalink }}
+      <a class="card" href="{{ .RelPermalink }}"><p class="eyebrow" style="margin-bottom: 6px">{{ .Params.step }}</p><h3>{{ .Title }}</h3></a>
+    {{ end }}
+  </nav>
+</div>
+{{ end }}

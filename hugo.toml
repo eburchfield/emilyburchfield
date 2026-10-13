@@ -1,0 +1,101 @@
+# The FACES Research Group website
+# Built with Hugo (extended) and the custom "faces" theme in themes/faces.
+# Netlify builds this with the Hugo version set in netlify.toml.
+
+baseURL = "https://www.emilyburchfield.org/"
+title = "The FACES Research Group"
+theme = "faces"
+languageCode = "en-us"
+enableEmoji = true
+summaryLength = 30
+
+# Files Hugo should not treat as pages (R Markdown sources, old rendered copies).
+ignoreFiles = ['\.ipynb$', '\.Rmd$', '\.Rmarkdown$', '_files$', '_cache$', '\.Rhistory$',
+               'publication/_index\.html$', 'publication/[^/]+/index\.html$',
+               # Former members' profile folders (copies are in archive/; they're listed via data/alumni.yaml)
+               'authors[/\\](andrea|anisha|arantxa|britta|caroline|emilyi|grayson|ilana|jared|kaitlyn|lokendra|marco|scott)[/\\]']
+
+# Course tutorials in content/courses are complete HTML pages made in R.
+# Serve them untouched (as static files) at their usual addresses.
+[module]
+  [[module.mounts]]
+    source = "content"
+    target = "content"
+    excludeFiles = ["courses/**/*.html"]
+  [[module.mounts]]
+    source = "content/courses"
+    target = "static/courses"
+    includeFiles = ["**/*.html"]
+  [[module.mounts]]
+    source = "static"
+    target = "static"
+  [[module.mounts]]
+    source = "layouts"
+    target = "layouts"
+  [[module.mounts]]
+    source = "data"
+    target = "data"
+  [[module.mounts]]
+    source = "assets"
+    target = "assets"
+  [[module.mounts]]
+    source = "archetypes"
+    target = "archetypes"
+
+[taxonomies]
+  tag = "tags"
+  author = "authors"
+
+# Keep the old Academic URLs for people and tags.
+[permalinks]
+  authors = "/author/:slug/"
+  tags = "/tag/:slug/"
+
+[markup.goldmark.renderer]
+  unsafe = true  # allow HTML inside markdown (iframes, centered captions)
+
+[markup.tableOfContents]
+  startLevel = 2
+  endLevel = 3
+
+[imaging]
+  resampleFilter = "lanczos"
+  quality = 85
+  anchor = "smart"
+
+[params]
+  acronym = "Food · Agriculture · Climate · Environment · Sustainability"
+  email = "emily.burchfield@emory.edu"
+  github = "https://github.com/eburchfield"
+  scholar = "https://scholar.google.com/citations?user=G-fs5tsAAAAJ"
+  department = "Department of Environmental Sciences, Emory University"
+
+[menus]
+  [[menus.main]]
+    name = "Research"
+    url = "/research/"
+    weight = 10
+  [[menus.main]]
+    name = "Publications"
+    url = "/publication/"
+    weight = 20
+  [[menus.main]]
+    name = "People"
+    url = "/people/"
+    weight = 30
+  [[menus.main]]
+    name = "Teaching"
+    url = "/courses/"
+    weight = 40
+  [[menus.main]]
+    name = "Blog"
+    url = "/blog/"
+    weight = 50
+  [[menus.main]]
+    name = "Comics"
+    url = "/comics/"
+    weight = 60
+  [[menus.main]]
+    name = "Join us"
+    url = "/prospective/"
+    weight = 70

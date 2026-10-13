@@ -11,7 +11,7 @@ summary: Everything you ever wanted to know about data visualization in R.
 title: Data Visualization
 toc: false
 type: docs
-weight: 1
+weight: 3
 tags: ["data visualization", "courses", "R", "ggplot2"]
 
 ---

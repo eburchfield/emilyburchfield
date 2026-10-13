@@ -1,0 +1,75 @@
+{{ define "main" }}
+{{ $steps := where (where site.RegularPages "Section" "research") "Params.step" "!=" nil }}
+{{ $steps = sort $steps "Weight" }}
+
+<section class="hero" style="background-image: url('{{ "img/hero-field.jpg" | relURL }}')">
+  <div class="wrap hero-inner">
+    <p class="acronym"><b>F</b>ood · <b>A</b>griculture · <b>C</b>limate · <b>E</b>nvironment · <b>S</b>ustainability</p>
+    <h1>{{ .Params.hero_title }}</h1>
+    <p class="lede">{{ .Params.hero_lede }}</p>
+    <div class="btn-row">
+      <a class="btn btn-wheat" href="{{ "research/" | relURL }}">Our research</a>
+      <a class="btn btn-ghost" href="{{ "publication/" | relURL }}">Our publications</a>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrap">
+    <h2>{{ .Params.steps_title }}</h2>
+    {{ with .Params.steps_intro }}<p class="intro">{{ . }}</p>{{ end }}
+    <div class="steps">
+      {{ range $steps }}{{ partial "step.html" . }}{{ end }}
+    </div>
+  </div>
+</section>
+
+{{ $posts := where (where site.RegularPages "Section" "blog") "Draft" false }}
+{{ $posts = $posts.ByDate.Reverse }}
+<section class="section dark">
+  <div class="wrap split">
+    {{ if $posts }}
+    <div class="split-main">
+      <h2>Field notes</h2>
+      {{ with index $posts 0 }}
+      <a class="post-lead" href="{{ .RelPermalink }}">
+        <p class="post-meta">{{ .Date.Format "January 2, 2006" }}</p>
+        <h3>{{ .Title }}</h3>
+        {{ with .Params.summary }}<p>{{ . }}</p>{{ else }}<p>{{ .Summary | plainify | truncate 180 }}</p>{{ end }}
+      </a>
+      {{ end }}
+      <div class="post-row">
+        {{ range after 1 (first 3 $posts) }}
+        <a class="post-small" href="{{ .RelPermalink }}">
+          <p class="post-meta">{{ .Date.Format "January 2, 2006" }}</p>
+          <h3>{{ .Title }}</h3>
+        </a>
+        {{ end }}
+      </div>
+      <p style="margin-top: 32px"><a href="{{ "blog/" | relURL }}">All posts →</a></p>
+    </div>
+    {{ end }}
+    <div class="split-side">
+      <h2>New papers</h2>
+      {{ with site.GetPage "/publication" }}
+        {{ $items := findRE `(?s)<li>.*?</li>` .Content 4 }}
+        <ul class="paper-list">
+          {{ range $items }}{{ . | replaceRE `^<li>|</li>$` "" | printf "<li>%s</li>" | safeHTML }}{{ end }}
+        </ul>
+        <p style="margin-top: 28px"><a href="{{ .RelPermalink }}">All publications →</a></p>
+      {{ end }}
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrap">
+    <h2>The team</h2>
+    {{ with .Params.team_intro }}<p class="intro">{{ . }}</p>{{ end }}
+    {{ partial "team.html" . }}
+    <p style="margin-top: 40px"><a href="{{ "people/" | relURL }}">Team and alumni →</a></p>
+  </div>
+</section>
+
+{{ partial "join.html" . }}
+{{ end }}

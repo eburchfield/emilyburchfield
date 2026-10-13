@@ -1,0 +1,17 @@
+{{ define "main" }}
+{{ partial "page-head.html" . }}
+<div class="wrap">
+  <article class="prose">
+    {{ with .Resources.GetMatch "featured.*" }}{{ $img := .Resize "1400x q82" }}<img src="{{ $img.RelPermalink }}" alt="" style="width: 100%; margin-bottom: 8px">{{ end }}
+    {{ .Content }}
+    {{ $kids := .Pages }}
+    {{ if $kids }}
+    <div class="cards" style="margin-top: 32px">
+      {{ range $kids.ByWeight }}
+        <a class="card" href="{{ .RelPermalink }}"><h3>{{ .Title }}</h3>{{ with .Params.summary }}<p>{{ . }}</p>{{ end }}</a>
+      {{ end }}
+    </div>
+    {{ end }}
+  </article>
+</div>
+{{ end }}

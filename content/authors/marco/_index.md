@@ -16,7 +16,7 @@ email: "marco.ferro@ilr.uni-bonn.de"
 organizations:
 - name: Emory University
   url: ""
-role: Visiting PhD student
+role: Visiting PhD Researcher
 # social:
 # - icon: envelope
 #   icon_pack: fas
@@ -29,7 +29,8 @@ role: Visiting PhD student
 #   link: https://github.com/eburchfield
 superuser: false
 title: Marco Ferro
-user_groups: ["Alumni"]
+weight: 5
+user_groups: [""]
 
 ---
 

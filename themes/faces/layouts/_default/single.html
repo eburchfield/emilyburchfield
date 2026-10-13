@@ -1,0 +1,9 @@
+{{ define "main" }}
+{{ partial "page-head.html" . }}
+<div class="wrap">
+  <article class="prose">
+    {{ .Content }}
+    {{ with .Params.image_credit }}<p style="font-size: 14px; color: var(--muted)">Header photo: {{ . | safeHTML }}</p>{{ end }}
+  </article>
+</div>
+{{ end }}

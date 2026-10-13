@@ -1,0 +1,15 @@
+{{ define "main" }}
+<header class="page-head">
+  <div class="wrap">
+    <p class="eyebrow">Field notes · {{ .Date.Format "January 2, 2006" }}</p>
+    <h1>{{ .Title }}</h1>
+    {{ with .Params.author }}<p class="lede">{{ . }}</p>{{ end }}
+  </div>
+</header>
+<div class="wrap">
+  <article class="prose">
+    {{ .Content }}
+    <p style="margin-top: 48px"><a href="{{ "blog/" | relURL }}">← All posts</a></p>
+  </article>
+</div>
+{{ end }}

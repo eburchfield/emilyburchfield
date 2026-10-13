@@ -29,6 +29,7 @@ role: Postdoc
 #   link: https://github.com/eburchfield
 superuser: false
 title: Dr. Shuaiqi Wu
+weight: 4
 user_groups: [""]
 
 ---

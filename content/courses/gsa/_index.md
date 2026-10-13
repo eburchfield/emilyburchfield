@@ -11,7 +11,7 @@ summary: Learn how to wrangle, visualize, explore, and model spatial data in R.
 title: Geospatial Analysis 
 toc: true
 type: docs
-weight: 1
+weight: 2
 tags: ["geospatial analysis", "courses", "R"]
 
 ---

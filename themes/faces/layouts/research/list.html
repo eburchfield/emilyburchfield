@@ -1,0 +1,11 @@
+{{ define "main" }}
+{{ partial "page-head.html" . }}
+<section class="section">
+  <div class="wrap">
+    <div class="steps">
+      {{ range .Pages.ByWeight }}{{ partial "step.html" . }}{{ end }}
+    </div>
+  </div>
+</section>
+{{ partial "join.html" . }}
+{{ end }}

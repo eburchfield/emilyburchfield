@@ -1,0 +1,10 @@
+{{ $bg := "" }}
+{{ if eq .Section "research" }}{{ with .Resources.GetMatch "featured.*" }}{{ $bg = (.Fill "1800x700 Center q78").RelPermalink }}{{ end }}{{ end }}
+<header class="page-head{{ if $bg }} with-image{{ end }}"{{ with $bg }} style="background-image: url('{{ . }}')"{{ end }}>
+  <div class="wrap">
+    {{ with .Params.step }}<p class="eyebrow">{{ . }}</p>{{ end }}
+    {{ with .Params.eyebrow }}<p class="eyebrow">{{ . }}</p>{{ end }}
+    <h1>{{ .Title }}</h1>
+    {{ with .Params.lede }}<p class="lede">{{ . }}</p>{{ else }}{{ if eq .Section "research" }}{{ with .Params.summary }}<p class="lede">{{ . }}</p>{{ end }}{{ end }}{{ end }}
+  </div>
+</header>
