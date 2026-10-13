@@ -160,6 +160,9 @@ h3 { font-stretch: 85%; font-weight: 700; line-height: 1.15; }
 .comic-reader.paged .comic { margin: 0; }
 .comic-reader.paged .comic img { display: none; cursor: pointer; }
 .comic-reader.paged .comic img.on { display: block; width: auto; max-width: 100%; max-height: calc(100vh - 120px); margin: 0 auto; }
+.artwork { margin: 48px 0 0; }
+.artwork img { width: 100%; height: auto; display: block; }
+.artwork figcaption { margin-top: 8px; font-size: 15px; color: var(--muted); }
 .wide { max-width: var(--wrap); }
 
 /* Publications page */

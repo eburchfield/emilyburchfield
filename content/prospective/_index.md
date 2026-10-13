@@ -1,5 +1,6 @@
 ---
 title: "Join us"
+aliases: ["/diversity/"]
 lede: "We welcome curious people who want to work where data, farming and communities meet."
 ---
 
@@ -29,3 +30,8 @@ Emory undergraduates interested in joining the research group should first take 
 ## Postdoctoral researchers
 
 All postdoc positions in the research group are currently filled.
+
+<figure class="artwork">
+<img src="/prospective/lois-chang-artwork.jpg" width="1073" height="796" loading="lazy" alt="Six hand-drawn panels: hands over tomatoes, 'Food is a human right'; a monarch butterfly over wildflowers, 'Biodiversity matters'; a raised fist painted as the Earth, 'Environmental justice is social justice'; a microscope by an open window, 'Science should be open'; a raised Black fist, 'Black Lives Matter'; the Statue of Liberty, 'Immigrants are welcome'.">
+<figcaption>Artwork by Lois Chang.</figcaption>
+</figure>
