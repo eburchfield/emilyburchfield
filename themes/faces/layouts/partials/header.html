@@ -4,8 +4,8 @@
     <ul class="nav-links">
       {{ $current := . }}
       {{ range site.Menus.main }}
-        {{ $active := or ($current.IsMenuCurrent "main" .) ($current.HasMenuCurrent "main" .) (and (not $current.IsHome) (hasPrefix $current.RelPermalink .URL)) }}
-        <li><a href="{{ .URL | relURL }}"{{ if $active }} aria-current="page"{{ end }}{{ if eq .Name "Join us" }} class="nav-cta"{{ end }}>{{ .Name }}</a></li>
+        {{ $active := or ($current.IsMenuCurrent "main" .) ($current.HasMenuCurrent "main" .) (and (not $current.IsHome) (hasPrefix $current.RelPermalink .URL)) (and (eq .URL "/people/") (hasPrefix $current.RelPermalink "/author/")) }}
+        <li><a href="{{ .URL | relURL }}"{{ if $active }} aria-current="page"{{ end }}>{{ .Name }}</a></li>
       {{ end }}
     </ul>
   </nav>

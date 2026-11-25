@@ -9,10 +9,10 @@ authors:
 - Britta Schumacher
 
 date: "2020-07-15T00:00:00Z"
-doi: ""
+doi: "10.1088/1748-9326/aba5b4"
 featured: false
 image:
-  caption: 'Figure from paper'
+  caption: ""
   focal_point: ""
   preview_only: false
 projects: ["Diversity"]

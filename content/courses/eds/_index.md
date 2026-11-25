@@ -35,7 +35,7 @@ Most of the programming material for this course has been collapsed into RMarkdo
 * [Making maps in `R`!](Making_maps_in_R.html)
 * [Rasters in `R`](Rasters_in_R.html)
 * [Linear regression](Linear_regression.html)
-* [Predictve modeling with random forests](Predictive_modeling.html)
+* [Predictive modeling with random forests](Predictive_modeling.html)
 * [Fancy-pants-advanced-R](Advanced_R_LAB.html)
 
 

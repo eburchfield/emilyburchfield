@@ -11,7 +11,7 @@ authors:
 - Dr. Andrea Rissing
 
 date: "2022-02-21T00:00:00Z"
-doi: ""
+doi: "10.3389/fsufs.2021.795901"
 featured: true
 image:
   caption: 'Realized net income of farmers in (A.) 1969 (adjusted to 2019 dollars) and (B.) 2019.'

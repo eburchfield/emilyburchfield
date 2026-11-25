@@ -3,7 +3,8 @@
 # Netlify builds this with the Hugo version set in netlify.toml.
 
 baseURL = "https://www.emilyburchfield.org/"
-title = "The FACES Research Group"
+title = "The FACES Research Group · Emory University"
+enableRobotsTXT = true
 theme = "faces"
 languageCode = "en-us"
 enableEmoji = true
@@ -87,10 +88,11 @@ ignoreFiles = ['\.ipynb$', '\.Rmd$', '\.Rmarkdown$', '_files$', '_cache$', '\.Rh
     name = "Teaching"
     url = "/courses/"
     weight = 40
-  [[menus.main]]
-    name = "Blog"
-    url = "/blog/"
-    weight = 50
+  # Blog hidden until the first post: restore this entry (and remove the build lines in content/blog/_index.md)
+  # [[menus.main]]
+  #   name = "Blog"
+  #   url = "/blog/"
+  #   weight = 50
   [[menus.main]]
     name = "Comics"
     url = "/comics/"

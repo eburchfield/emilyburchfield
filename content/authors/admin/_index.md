@@ -9,13 +9,16 @@ education:
   - course: MA in Economics
     institution: University of Louvain, Belgium
     year: 2012
-  - course: BS in Economics
+  - course: BA in Economics
     institution: Clemson University
+    year: 2010
+  - course: BS in Economics and Management
+    institution: University of Louvain, Belgium
     year: 2010
 email: "emily.burchfield@emory.edu"
 organizations:
 - name: Emory University
-  url: "http://college.emory.edu/main/index.html"
+  url: "https://envs.emory.edu/"
 role: Associate Professor
 social:
 - icon: envelope
@@ -33,5 +36,6 @@ user_groups: [""]
 
 ---
 
-Dr. Burchfield is an Associate Professor in the [Department of Environmental Sciences](http://envs.emory.edu/home/) at Emory University. Her work integrates social and environmental data to support transitions towards more sustainable, resilient, and just agricultural futures. Ongoing projects include (1) modeling the impact of shifting land use on agroecological outcomes, (2) projecting shifts in U.S. cultivation geographies driven by climate change, (3) determining the shared characteristics of productive and resilient agricultural systems, and (4) identifying the multiscalar drivers of farm-level cultivation and conservation behavior. This interdisciplinary research integrates "big" geospatial data with "deep" qualitative and survey data to understand and support agricultural system transition at multiple scales. You can download her CV [here](Burchfield_CV.pdf).
+Dr. Emily Burchfield is an Associate Professor in the [Department of Environmental Sciences](https://envs.emory.edu/) at Emory University, where she leads the FACES Research Group. Her research pairs big geospatial data with deep conversations with farmers and communities to understand where and how we grow food, what shapes the options open to farms, and which pathways lead to better agrifood futures. She leads the NSF-funded [Thriving Future Cropscapes](/research/future-cropscapes/) project in Georgia, Nebraska and Ohio, and helped launch the [Georgia Farm & Food Initiative](/research/futures-together/). At Emory she teaches Environmental Data Science and Sustainable Food Systems.
 
+[Download her CV (PDF)](Burchfield_CV.pdf)

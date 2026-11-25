@@ -9,10 +9,10 @@ authors:
 - admin
 
 date: "2021-05-21T00:00:00Z"
-doi: ""
+doi: "10.1038/s43016-021-00281-1"
 featured: true
 image:
-  caption: 'Figure from paper'
+  caption: ""
   focal_point: ""
   preview_only: false
 projects: ["Diversity"]

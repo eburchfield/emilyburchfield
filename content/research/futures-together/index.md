@@ -10,7 +10,7 @@ tags: ["Georgia"]
 
 What future do farmers and communities in Georgia want, and what would it take to get there? We started by listening: farmer focus groups in 2025, then regional listening sessions in Atlanta, Athens, Albany and Savannah between November 2025 and September 2026. In those sessions, farmers, eaters and community partners named the priorities for Georgia's food system in their own words.
 
-Those conversations grew into the Georgia Farm & Food Initiative, a statewide network of farmers, eaters and community partners working to get more Georgia-grown food onto Georgia tables. The network belongs to its members, who set its direction. The FACES Research Group helped launch it and supports it with coordination and research, and Kate Munden-Dixon coordinates the network. A website for the initiative and reports for the state are coming soon.
+Those conversations grew into the Georgia Farm & Food Initiative, a statewide network of farmers, eaters and community partners working to get more Georgia-grown food onto Georgia tables. The network belongs to its members, who set its direction. The FACES Research Group helped launch it and supports it with coordination and research, and [Kate Munden-Dixon](/author/dr.-kate-munden-dixon/) coordinates the network. We'll link the initiative's own website here when it launches.
 
 This work builds on our research on agricultural futures with farmers and practitioners, including [Thriving Future Cropscapes](https://www.thrivingfuturecropscapes.org), an NSF-funded project.
 

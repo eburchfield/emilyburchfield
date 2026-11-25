@@ -1,6 +1,6 @@
 ---
 title: Whitney Barr
-role: PhD Student, Environmental Sciences and Society
+role: PhD Student
 organizations:
 - name: Emory University
 weight: 6

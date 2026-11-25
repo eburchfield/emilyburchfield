@@ -13,6 +13,8 @@ project_link_text: "Visit thrivingfuturecropscapes.org"
 
 Weather, technology, markets and farmers' own choices all shape where crops can be grown. We project how the map of major US crops could shift over the coming decades, and test those projections with the people who know each region best.
 
+Postdoctoral researcher [Shuaiqi Wu](/author/dr.-shuaiqi-wu/) develops process-based and statistical crop models of how yields respond to environmental change, with support from the Environmental Defense Fund.
+
 ## Thriving Future Cropscapes
 
 *Bringing stakeholders and data together to imagine and enact thriving agricultural futures.*
@@ -47,4 +49,4 @@ This material is based upon work supported by the National Science Foundation un
 * Burchfield, E. (2022). [Shifting cultivation geographies in the Central and Eastern US](https://doi.org/10.1088/1748-9326/ac6c3d). _Environmental Research Letters_, 17, 054049.
 * Schumacher, B., Burchfield, E., Bean, B., Yost, M. (2023). [Leveraging important covariate groups for corn yield prediction](https://doi.org/10.3390/agriculture13030618). _Agriculture_, 13(3), 618.
 * Burchfield, E., Nelson, K. (2021). [Agricultural yield geographies in the United States](/publication/2021_ga/). _Environmental Research Letters_. [https://doi.org/10.1088/1748-9326/abe88d](https://doi.org/10.1088/1748-9326/abe88d)
-* Burchfield, E., Matthews-Pennanen, N., Stoebner, J., Lant, C. (2019). [Changing yields in the Central United States under climate and technological change](/publication/2019_cc/). _Climatic Change_, 159, 329-346. [https://doi.org/10.1007/s10584-019-02567-7](https://doi.org/10.1007/s10584-019-02567-7). Preprint available [here](/files/Burchfield_FY_preprint.pdf).
+* Burchfield, E., Matthews-Pennanen, N., Schoof, J., Lant, C. (2019). [Changing yields in the Central United States under climate and technological change](/publication/2019_cc/). _Climatic Change_, 159, 329-346. [https://doi.org/10.1007/s10584-019-02567-7](https://doi.org/10.1007/s10584-019-02567-7). Preprint available [here](/files/Burchfield_FY_preprint.pdf).

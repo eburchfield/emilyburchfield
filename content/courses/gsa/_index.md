@@ -18,7 +18,7 @@ tags: ["geospatial analysis", "courses", "R"]
 
 ## Background
 
-This course was originally taught at Utah State University in 2018 and 2019.  Below, you'll find links to the tutorials we covered in the class.  Note that this course focused on the [`sp`](https://cran.r-project.org/web/packages/sp/index.html) package rather than the [`sf`](https://r-spatial.github.io/sf/) package.  If you want to learn more about the `sf` package, you'll want to check out my Environmental Data Science course page.  I also recommend [this resource](https://r-spatial.github.io/sf/articles/sf1.html) by Edzer Pebesma and [the Geocomputation in R](https://r-spatial.github.io/sf/articles/sf1.html) textbook by Robin Lovelace and colleagues.
+This course was originally taught at Utah State University in 2018 and 2019.  Below, you'll find links to the tutorials we covered in the class.  Note that this course focused on the [`sp`](https://cran.r-project.org/web/packages/sp/index.html) package rather than the [`sf`](https://r-spatial.github.io/sf/) package.  If you want to learn more about the `sf` package, you'll want to check out my Environmental Data Science course page.  I also recommend [this resource](https://r-spatial.github.io/sf/articles/sf1.html) by Edzer Pebesma and the [Geocomputation with R](https://r.geocompx.org/) textbook by Robin Lovelace and colleagues.
 
 ## Content
 

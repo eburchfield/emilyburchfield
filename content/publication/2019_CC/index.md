@@ -10,10 +10,10 @@ authors:
 - Dr. Justin Schoof
 - Dr. Christopher Lant
 #date: "2019-09-01T00:00:00Z"
-doi: ""
+doi: "10.1007/s10584-019-02567-7"
 featured: false
 image:
-  caption: 'Figure from paper'
+  caption: ""
   focal_point: ""
   preview_only: false
 projects: ["Cropscapes"]

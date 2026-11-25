@@ -8,10 +8,10 @@ authors:
 - Dr. Kate Nelson
 - Kaitlyn Spangler
 date: "2019-09-01T00:00:00Z"
-doi: ""
+doi: "10.1016/j.agee.2019.106615"
 featured: false
 image:
-  caption: 'Figure from paper'
+  caption: ""
   focal_point: ""
   preview_only: false
 projects: ["Diversity"]

@@ -9,10 +9,10 @@ authors:
 - Dr. Kate Nelson
 
 date: "2021-01-15T00:00:00Z"
-doi: ""
+doi: "10.1088/1748-9326/abe88d"
 featured: false
 image:
-  caption: 'Figure from paper'
+  caption: ""
   focal_point: ""
   preview_only: false
 projects: ["Diversity"]

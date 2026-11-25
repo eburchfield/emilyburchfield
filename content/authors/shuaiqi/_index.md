@@ -16,7 +16,7 @@ email: "shuaiqi.wu@emory.edu"
 organizations:
 - name: Emory University
   url: ""
-role: Postdoc
+role: Postdoctoral Researcher
 # social:
 # - icon: envelope
 #   icon_pack: fas
@@ -34,5 +34,5 @@ user_groups: [""]
 
 ---
 
-Shuaiqi Wu is a postdoctoral researcher working with Prof. Emily Burchfield and Prof. Eric Lonsdorf. Shuaiqi’s work focuses on developing and improving both process-based and statistical crop models to investigate how crop productivity respond to environmental changes and inform adaptation planning. Shuaiqi’s study aims to provide actionable information for agricultural stakeholders and enhance the resilience of agriculture industry. 
+Shuaiqi Wu is a postdoctoral researcher working with Prof. Emily Burchfield and Prof. Eric Lonsdorf. Shuaiqi’s work focuses on developing and improving both process-based and statistical crop models to investigate how crop productivity responds to environmental changes and inform adaptation planning. Shuaiqi’s study aims to provide actionable information for agricultural stakeholders and enhance the resilience of the agriculture industry. 
 You can find Shuaiqi's CV [here.](Shuaiqi_Wu_CV_2025_9.pdf)
